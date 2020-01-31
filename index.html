@@ -1,0 +1,4174 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Python</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/python.css">
+	
+	<!-- //Console Error  -->
+	<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+	
+
+
+	<!-- <!-- bootstarp -->
+	<!-- ==================================================	--> 
+
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+	
+	
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- logo
+    ================================================== -->
+    <link rel="shortcut icon" href="logo.png" type="image">
+    <link rel="icon" href="logo.png" type="image">
+
+</head>
+
+<body id="top" style="background-color:black">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="logo.png" width="45px" height="45px;" alt="Logo">
+				</a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+				<!-- <a href="index.html"><button class="logout_button" onclick="logout()">Go to  Profile<i class="fa fa-user" aria-hidden="true"></i></button></a> -->
+                <h3>Python</h3>
+				
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">Introduction</a></li>
+                    <li><a class="smoothscroll"  href="#python_home" title="python_home">Overview</a></li>
+                    <li><a class="smoothscroll"  href="#python_syntax" title="python_syntax">Syntax</a></li>
+                    <li><a class="smoothscroll"  href="#python_variables" title="python_variables">Variables</a></li>
+                    <li><a class="smoothscroll"  href="#python_numbers" title="python_numbers">Numbers</a></li>
+                    <li><a class="smoothscroll"  href="#python_casting" title="python_casting">Type Casting</a></li>
+                    <li><a class="smoothscroll"  href="#python_strings" title="python_strings">Strings</a></li>
+                    <li><a class="smoothscroll"  href="#python_operators" title="python_operators">Operators</a></li>
+                    <li><a class="smoothscroll"  href="#python_lists" title="python_lists">Lists</a></li>
+                    <li><a class="smoothscroll"  href="#python_tuples" title="python_tuples">Tuples</a></li>
+                    <li><a class="smoothscroll"  href="#python_sets" title="python_sets">Sets</a></li>
+                    <li><a class="smoothscroll"  href="#python_dictionaries" title="python_dictionaries">Dictionaries</a></li>
+                    <li><a class="smoothscroll"  href="#python_conditions" title="python_conditions">if , elif & else</a></li>
+                    <li><a class="smoothscroll"  href="#python_while_loop" title="python_while_loop">While Loop</a></li>
+                    <li><a class="smoothscroll"  href="#python_for_loop" title="python_for_loop">for Loop</a></li>
+                    <li><a class="smoothscroll"  href="#python_functions" title="python_functions">Functions</a></li>
+                    <li><a class="smoothscroll"  href="#python_lambda" title="python_lambda">Lambda</a></li>
+                    <li><a class="smoothscroll"  href="#python_arrays" title="python_arrays">Arrays</a></li>
+                    <li><a class="smoothscroll"  href="#python_classes_objects" title="python_classes_objects">Classes and Objects</a></li>
+                    <li><a class="smoothscroll"  href="#python_iterators" title="python_iterators">Iterators</a></li>
+                    <li><a class="smoothscroll"  href="#python_module" title="python_module">Module</a></li>
+                    <li><a class="smoothscroll"  href="#python_dates" title="python_dates">Dates</a></li>
+                    <li><a class="smoothscroll"  href="#python_json" title="python_json">JSON</a></li>
+                    <li><a class="smoothscroll"  href="#python_pip" title="python_pip">PIP</a></li>
+                    <li><a class="smoothscroll"  href="#clients" title="clients">Who Developed</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+    
+                <p>“ The most important principle for designing lively eLearning is to see eLearning design not
+					as information design but as designing an experience. ”</p>
+    
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3 class="welcome">Welcome to E - learning </h3>
+
+                <h1>
+                    “Teaching in the <br>
+					Internet age means <br>
+					we must teach
+					tomorrow’s<br> skills today.”  <br>
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#contact" class="smoothscroll btn btn--stroke">
+                        Contact Us
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        Start Learning
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about" style="background-color:#ef9c28;">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">introduction</h3>
+                <h1 id= "display-1" class="display-1 display-1--light">About Python </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p id="p-home rules"  style="text-align:justify">
+				
+				   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Python is a really popular programming language used by companies like Google, Facebook, Dropbox, Instagram, and Reddit. Python is used for all sorts of things like building websites, web scraping, data analysis, machine learning, and natural language processing. The language is designed to be easy to read, while still being very powerful, which makes it a great language for beginners to learn.
+				
+				</p>
+            </div>
+        </div> <!-- end about-desc -->
+		
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 id= "display-1" class="display-1 display-1--light">Why you should Learn ?</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p id="p-home rules"  style="text-align:justify">
+				
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Python is an easy programming language for beginners to start out with. It’s newer than a lot of languages, so it’s easier to learn than some of the older languages (they fix a lot of the things they learned that suck about older languages), there’s a lot of demand for Python programmers (the average Python developer salary in the US is $102,000 ), and you can do some really cool things with Python from data science to building websites.
+				
+				
+				
+				
+				</p>
+            </div>
+        </div> <!-- end about-desc -->
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 id= "display-1" class="display-1 display-1--light">What are the different language options out there? Why is Python a good place to start ?</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p id="p-home rules" style="text-align:justify">
+				
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp There are a lot of potential programming languages out there: C, C++, Go, Java, Javascript, PHP, Python, Ruby, Swift being some of them. But if you were to start anywhere, I’d recommend either Python or Ruby. They both have huge developer communities with lots of resources that are friendly for beginners to learn, and there are features of the language that are easier for beginners to learn (for reasons it would be hard to explain here, but for example like they don’t require ; after every line or do crazy iterative for loops like Javascript.)
+					
+				</p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+	
+	<!-- python Overview  
+	========================================================== -->
+
+	
+	<section id='python_home' class="python_1">
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+				<h3 id= "display-1" class="display-1 display-1--light padding-h1-python">What is Python</h3>
+			</div>
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                
+				<p id="p-home_bg_1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Python is an interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales. In July 2018, the creator Guido Rossum stepped down as the leader in the language community after 30 years.
+				
+				<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span><b style="color:red"> It is used for : </b></span><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp web development (server-side),<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp software development,<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp mathematics,<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp system scripting.<br>
+				</p>
+            </div>
+        </div> 
+		
+		
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+				<h3 id= "display-1" class="display-1 display-1--light padding-h1-python">Features of Python</h3>
+			</div>
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">Easy-to-learn </b></span>− Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly. </p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">Easy-to-read</b></span> − Python code is more clearly defined and visible to the eyes.</p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">Easy-to-maintain</b></span> − Python's source code is fairly easy-to-maintain. </p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">Extendable </b></span>− You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient. </p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange"> Portable </b></span>− Python can run on a wide variety of hardware platforms and has the same interface on all platforms. </p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">Interactive Mode</b></span> − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.</p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">A broad standard library</b></span>  − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh. </p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">Databases</b></span>  − Python provides interfaces to all major commercial databases.</p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">Scalable</b></span> − Python provides a better structure and support for large programs than shell scripting. </p>
+				<p id="p-home_bg_1"><span><b style="color:green">*</b></span>&nbsp&nbsp <span><b class="orange">GUI Programming</b></span> − Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.</p>
+				
+        </div> 
+		
+	</section>
+
+	
+	<!-- python syntax  
+	 ==================================================================== -->
+	
+    <section id='python_syntax' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Python Syntax & Rules</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"> <b>1. </b> Python is case sensitive. Hence a variable with name <b>e_Learning</b> is not same as <b>e_learning</b></p>
+			<p class="rules"><b>2. </b> In python, there is no command terminator, which means there is no semicolon " <b>; </b> ".</p>
+			<p class="rules"><b>3. </b> In python, executable statement should be written in single only  and the line change act as command terminator in python.
+To write two separate executable statements in a single line, you should use a semicolon " <b>;</b> " to separate the commands.</p>
+			<p class="rules"><b>4. </b> To write a code in multiline without confusing the python interpreter, is by using a backslash " <b> \ </b> 	" at the end of each line to explicitly denote line continuation.</p>
+			<p class="rules"><b>5. </b> In python, you can write comments in your program using a # at the start.</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p class="comment"># It is a Comment <br># Rule 2 Example <br>
+					<span class="print">print</span><span class="green">  "Hello, World!" </span>
+					<br><span class="print">print</span><span class="green"> "It is another statement "</span><br>
+					<span class="comment"># Rule 3 example</span><br>
+					<span class="print">print</span><span class="green"> "Hello,World!" </span><span class="white"> ; </span>
+					<span class="print">print</span><span class="green"> "It is another statement "</span><br>
+					<span class="comment"># Rule 4 Example</span><br>
+					<span class="white">multiplication = </span><span class="pink">80</span> <span class="white">*  \</span><br>
+					<span class="pink">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp25</span><span class="white"> *  \</span><br>
+					<span class="pink">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp25</span>
+					<br><span class="print">print</span> <span class="white"> ( multiplication )</span>
+					<br>
+					
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p>
+					<span class="comment">
+					Hello, World!<br>
+						It is another statement <br>
+						Hello,World!<br>
+						It is another statement<br> 
+						50000</span>
+					
+					
+					</p>
+					</div>
+			</div>
+		</div>
+		
+		
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Python Indentations</h1>
+            </div>
+			
+			<div class="row about-desc" data-aos="fade-up">
+				<p class="rules">&nbsp&nbsp&nbsp&nbsp&nbsp Where in other programming languages like Java, C or C++, the indentation in code is for readability only, in Python the indentation is very important. Python uses indentation to indicate a block of code.</p>
+			</div>
+		</div>
+			
+			<div class="main_block ">
+				<div class="code_block" data-aos="fade-up">
+					<h4>Example (With Indentation) :</h4>
+					<div class="code_sub_block">
+						<p><span class="white">a = </span><span class="pink">5</span><br>
+						<span class="white">b = </span><span class="pink">10</span><br>
+						<span class="print">if &nbsp&nbsp&nbsp</span><span class="white">b > a &nbsp: </span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="green"> <span  class="white"> ( </span>" b have greater value. "<span  class="white"> ) </span></span>
+						</p>
+					</div>
+				</div>
+			</div><br>
+						
+			<div class="main_block ">
+				<div class="code_block" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p>			
+						<span class="comment">b have greater value. </span>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row about-desc" id="extra_padd" data-aos="fade-up">
+				<p class="rules">Below python program shows the without Indentation, when it run it gives an error </p>
+			</div>
+				
+			<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error  Example (Without Indentation) :</h4>
+					<div class="code_sub_block error_sub">
+						<p ><span class="white">a = </span><span class="pink">5</span><br>
+						<span class="white">b = </span><span class="pink">10</span><br>
+						<span class="print">if &nbsp&nbsp&nbsp</span><span class="white">b > a &nbsp: </span><br>
+						<span class="print">print </span><span class="green"> <span  class="white"> ( </span>" b have greater value. "<span  class="white"> ) </span></span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error  Details :	</h4>			
+						<div class="code_sub_block error_sub">
+						<p class="comment" style="color:red">
+						File "file_name.py", line 4<br>
+						print " b have greater value. "<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	^<br>
+						IndentationError: expected an indented block<br>
+						</p>
+					</div>
+				</div>
+			</div>
+	</section>
+		
+	<!-- variable
+	================================================== -->
+	
+	
+	
+	<section id='python_variables' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Creating Variables</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">&nbsp&nbsp&nbsp&nbsp Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory. Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory.</p>
+			<p class="rules"><b>*</b> The variable name can consist of alphabet(s), number(s) and underscore(s) only.</p>
+			<p class="rules"><b>*</b> The first character in variable's name cannot be a <b>number & Symbol</b>. Hence  1sum, #sub, sub-total these all are invalid variable names. While sum1, sub, sub_total, _total these  all  are valid names.</p>
+			<p class="rules"><b>*</b> In Python we need not declare any variable before we use.</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p><span class="comment"># Below a & b variables in the form of Integers</span><br>
+					<span class="white"> a = 2<br>b = 5</span><br>
+					<span class="print">print</span> 
+					<span class="white"> ( a )</span><br>
+					<span class="print">print</span> 
+					<span class="white"> ( b )</span><br>
+					<span class="comment"># Below c variable in the form of Strings</span><br>
+					<span class="white">c = </span><span class="green">" Hello, Wolrd! "</span><br>
+					<span class ="print">print</span>
+					<span class="white"> ( c )</span><br>
+					<span class="comment"># Below variable in the form of string because we used " " to store the variable</span><br>
+					<span class="white">d = </span><span class="green">" 5 "</span><br>
+					<span class="print">print</span><span class="white"> ( d )</span>
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p>			
+					<span class="comment">
+					2<br>	
+					5<br>
+					Hello, Wolrd!<br> 
+					5 </span>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		
+			<div class="row about-desc" data-aos="fade-up">
+				<br><p class="rules"><b>* </b>In The Python <b>print</b> statement is often used to print variables.
+					We can also combine both text and variable by using + character . </p>
+			</div>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example :</h4>
+					<div class="code_sub_block">
+						<p>
+							<span class="white">a = </span><span class="pink">"Python"</span><br>
+							<span class="print">print </span><span class="white">( <span class="green">"Hey, I am Learning "</span> + a )</span><br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+							Hey, I am Learning Python
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="row about-desc" data-aos="fade-up">
+				<br><p class="rules"><b>* </b>We can also add <b>variables</b> by using <b> + </b> character.
+					We can also combine both text and variable by using + character : </p>
+			</div>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example :</h4>
+					<div class="code_sub_block">
+						<p>
+						
+						<span class="white">a = </span><span class="pink">5</span><br>
+						<span class="white">b = </span><span class="pink">7</span><br>
+						<span class="white">c = a + b</span><br>
+						<span class="print">print </span><span class="white">( c )</span><br>
+						
+						<span class="white">s1 = </span><span class="green">" Kristen "</span><br>
+						<span class="white">s2 = </span><span class="green">" Stewart "</span><br>
+						<span class="print">print </span><span class="white">( s1 + s2 )</span><br>
+						
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+						12<br>
+						Kristen  Stewart
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="row about-desc" id="extra_padd" data-aos="fade-up">
+				<p class="rules"><b>* </b>But we can not add <b>string variable</b> and <b>Integer Variable</b></p>
+			</div>
+				
+			<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error Example ( Here, We are trying to adding String and Integer Variable) :</h4>
+					<div class="code_sub_block error_sub">
+						<p><span class="white">a = </span><span class="pink">5</span><br>
+						<span class="white">b = </span><span class="green">" Kristen Stewart "</span><br>
+						<span class="print">print </span><span class="white"> ( a + b )</span></p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error Details :</h4>
+					<div class="code_sub_block error_sub">
+						<p class="comment" style="color:red">						
+							Traceback (most recent call last):<br>
+								File "file_name.py", line 3, in <module><br>
+									print ( a + b )<br>
+							TypeError: unsupported operand type(s) for +: 'int' and 'str'
+						</p>
+					</div>
+				</div>
+			</div>
+		
+	</section>
+	
+	
+	
+	
+	<!-- Numbers -->
+	<!-- ========================================================= -->
+	
+	<section id='python_numbers' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Python Numbers</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	Number data types store numeric values. They are immutable data types, means that changing the value of a number data type results in a newly allocated object. 
+				int (signed integers) − They are often called just integers or ints, are positive or negative whole numbers with no decimal point.			
+			</p>
+			<p class="rules"><span class="red"><b>*</b></span>
+				In Python numbers are classified into three types. they are,<br>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span><b>( i ) </b></b></span> int<br>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span><b>( ii ) </b></span>float<br>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span><b>( iii ) </b></span>complex<br>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span><b>( iv ) </b></span>long<br>
+					<span class="red"><b>*</b> </span>When we assign a value to the variables at the time they are created. <br>
+					<span class="red"><b>*</b> </span> By using <span class="keyword_bg"> type ( ) </span> function we can know object type.  
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="comment"># integer type data</span><br>
+						<span class="white">a = </span><span class="pink">1</span><br>
+						<span class="comment"># float</span><br>
+						<span class="white">b = </span><span class="pink">1.0</span><br>
+						<span class="comment"># complex </span><br>
+						<span class="white">c = </span><span class="pink">1j</span><br>
+						<span class="comment"># long </span><br>
+						<span class="white">d = </span><span class="pink">1L</span><br>
+						<span class="print">print </span><span class="white"> ( a ) </span><br>
+						<span class="print">print </span><span class="white"> ( b ) </span><br>
+						<span class="print">print </span><span class="white"> ( c ) </span><br>
+						<span class="print">print </span><span class="white"> ( d ) </span><br>
+						<span class="print">print </span><span class="white"> ( </span><span class="green">type</span><span class="white"> ( a ) )</span><br>
+						<span class="print">print </span><span class="white"> ( </span><span class="green">type</span><span class="white"> ( b ) )</span><br>
+						<span class="print">print </span><span class="white"> ( </span><span class="green">type</span><span class="white"> ( c ) )</span><br>
+						<span class="print">print </span><span class="white"> ( </span><span class="green">type</span><span class="white"> ( d ) )</span>	
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					1 <br>
+					1.0<br>
+					1j<br>
+					
+					&lt type 'int'><br>
+					&lt type 'float'><br>
+					&lt type 'complex'><br>
+					&lt type 'long'>
+					
+					</p>
+					</div>
+			</div>
+		</div>
+		
+		
+		<!-- integer  -->
+		<!-- ============================================= -->
+		
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Int</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"></p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						
+					</p>
+					</div>
+			</div>
+		</div>
+		
+		
+		<!-- Float  -->
+		<!-- ============================================= -->
+		
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Float</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"></p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						
+					</p>
+					</div>
+			</div>
+		</div>
+		
+		<!-- Complex  -->
+		<!-- ============================================= -->
+		
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Complex </h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"></p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						
+					</p>
+					</div>
+			</div>
+		</div>
+		
+		
+		<!-- Long  -->
+		<!-- ============================================= -->
+		
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Long </h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"></p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						
+					</p>
+					</div>
+			</div>
+		</div>
+		
+		
+	</section>
+	
+	
+	
+	
+	<!-- casting
+	================================================== -->
+	
+	
+	
+	<section id='python_casting' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Type Casting</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space">The process of converting the value of one data type (integer, string, float, etc.) to
+				another data type is called <span class="keyword_bg_2">type casting</span>. Python has two types of type casting. they are, </span>
+				<br>
+				<span class="space">( i ) Implicit Type Casting</span><br>
+				<span class="space">( i ) Explicit Type Casting</span>
+			</p>
+			<h1 class="subhead color_padd">Implicit Type Casting</h1>
+			<p class="rules">
+				<span class="space">
+					In Implicit type casting, Python automatically converts one data type to another data type. This process doesn't need any user involvement.
+
+Let's see an example where Python promotes conversion of lower datatype (integer) to higher data type (float) to avoid data loss.
+				</span>
+			</p>
+		</div>
+		
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+					
+						<span class="white">a = <span class="pink">25</span></span><br>
+						<span class="white">b = <span class="pink">25.12</span></span><br>
+						<span class="white">c = a + b</span><br>
+						<span class="print">print </span><span class="white"> c</span><br>
+						<span class="print">print</span><span class="white"> ( <span class="green">"Data of c is "</span> , <span class="green">type</span> ( c ) )</span><br>
+						
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">		
+						50.12<br>
+						('Data of c is ', &lttype 'float'>)
+
+					</p>
+				</div>
+			</div>
+		</div><br>
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space"> 
+					<span class="red"><b>*</b></span> Python doesn't promotes Addition of higher datatype (string) to lower data type (integer). 
+				</span>
+			</p>
+		</div>
+		<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error  Example:</h4>
+					<div class="code_sub_block error_sub">
+						<p><span class="white">a = </span><span class="pink">1</span><br>
+						<span class="white">s = </span><span class="pink">"Hello Wolrd"</span><br>
+						<span class="print">print </span><span class="white">( <span class="green"> " Data type of a: " </span>, <span class="green">type</span> ( a ) )</span><br>
+						<span class="print">print </span><span class="white">( <span class="green"> " Data type of s: " </span>, <span class="green">type</span> ( s ) )</span><br>
+						<span class="print">print </span><span class="white">( a<span class="green"> + </span>s )</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error  Details :</h4>			
+						<div class="code_sub_block error_sub">
+						<p class="comment" style="color:red">
+						(' Data type of a: ', &lttype 'int'>)<br>
+						(' Data type of s: ', &lttype 'str'>)<br><br>
+						Traceback (most recent call last):<br>
+						  File "file_name.py", line 5, in &ltmodule><br>
+							print ( a + s )<br>
+						TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+						</p>
+					</div>
+				</div>
+			</div>
+	
+		
+			<div class="row about-desc" data-aos="fade-up">
+				<p class="rules">				
+					<h1 class="subhead color_padd">Explicit Type Casting</h1>
+					
+				</p>
+			</div>
+			
+					<div class="row about-desc" data-aos="fade-up">
+						<p class="rules">
+						
+							<span class="space">In Explicit Type Conversion, users convert the data type of an object to required data type. 
+							We use the predefined functions like <span class="keyword_bg_2">int( )</span>, <span class="keyword_bg_2">float( )</span>, <span class="keyword_bg_2">str( )</span>, etc to perform explicit type 
+							conversion.
+
+							This type conversion is also called typecasting because the user casts (change) 
+							the data type of the objects.<br>
+			
+							<span class="red space"><b>*</b></span> Addition of string and integer using explicit conversion
+							</span>
+						</p>
+					</div>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example :</h4>
+					<div class="code_sub_block">
+						<p>
+								<span class="white">a = </span><span class="pink">25</span><br>
+								<span class="white">b = </span><span class="green">"36"</span><br>
+								<span class="print">print</span><span class="white"> ( <span class="green">"Data type of a:"</span>, <span class="green">type</span> ( a ) )</span><br>
+								<span class="print">print</span><span class="white"> ( <span class="green">"Data type of b before Type Casting :"</span>, <span class="green">type</span> ( b ) )</span><br>
+								<span class="white">b = <span class="print">int</span> ( b )</span><br>
+								<span class="print">print</span><span class="white"> ( <span class="green">"Data type of b after Type Casting :"</span>, <span class="green">type</span> ( b ) )</span><br>
+								<span class="white">c = a + b</span><br>
+								<span class="print">print</span> <span class="white">( <span class="green">"Sum of a and b : " </span>, c) </span><br>
+								<span class="print">print</span> <span class="white">( <span class="green">"Data type of the c : " </span>,<span class="green"> type </span> ( c ) ) </span>
+								
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+							('Data type of a:', &lttype 'int'>)<br>
+							('Data type of b before Type Casting :', &lt type 'str'>)<br>
+							('Data type of b after Type Casting :', &lt type 'int'>)<br>
+							('Sum of a and b : ', 61)<br>
+							('Data type of the c : ', &lt type 'int'>)
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="row about-desc" data-aos="fade-up">
+				<p class="rules">				
+					<h1 class="subhead color_padd">Type Casting Example</h1>
+				</p>
+			</div>
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example :</h4>
+					<div class="code_sub_block">
+						<p>
+							<span class="white">a = <span class="print"><span class="green">int</span> </span>( 4 )</span><br>
+							<span class="comment"># below converting float type to integer type</span><br>
+							<span class="white">b = <span class="print"><span class="green">int</span> </span>( 32.2 )</span><br>
+							<span class="comment"># below converting string type to integer type</span><br>
+							<span class="white">c = <span class="print"><span class="green">int</span> </span>( "<span class="green">23</span>" )</span><br>
+
+							<span class="print">print</span><span class="white"> ( a )</span><br>
+							<span class="print">print</span><span class="white"> ( b )</span><br>
+							<span class="print">print</span><span class="white"> ( c )</span><br><br>
+
+							
+							<span class="white">j = <span class="print"><span class="green">float</span> </span>( 4.6 )</span><br>
+							<span class="comment"># below converting integer type to float type</span><br>
+							<span class="white">i = <span class="print"><span class="green">float</span> </span>( 8 )</span><br>
+							<span class="comment"># below converting string type to float type</span><br>
+							<span class="white">k = <span class="print"><span class="green">float</span> </span>( "<span class="green">4</span>" )</span><br>
+							<span class="comment"># below converting string type to float type</span><br>
+							<span class="white">l = <span class="print"><span class="green">float</span> </span>( "<span class="green">4.52</span>" )</span><br>
+
+							<span class="print">print</span><span class="white"> ( i )</span><br>
+							<span class="print">print</span><span class="white"> ( j )</span><br>
+							<span class="print">print</span><span class="white"> ( k )</span><br>
+							<span class="print">print</span><span class="white"> ( l )</span><br><br>
+
+
+							<span class="white">x = <span class="print"><span class="green">str</span> </span>( "<span class="green">hello..123</span>" )</span><br>
+							<span class="comment"># below converting integer type to string type</span><br>
+							<span class="white">y = <span class="print"><span class="green">str</span> </span>( 2 )</span><br>
+							<span class="comment"># below converting float type to string type</span><br>
+							<span class="white">z = <span class="print"><span class="green">str</span> </span>( 3.0 )</span><br>
+
+							<span class="print">print</span><span class="white"> ( x )</span><br>
+							<span class="print">print</span><span class="white"> ( y )</span><br>
+							<span class="print">print</span><span class="white"> ( z )</span><br>
+
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+							4<br>
+							32<br>
+							23<br>
+							8.0<br>
+							4.6<br>
+							4.0<br>
+							4.52<br>
+							hello..123<br>
+							2<br>
+							3.0<br>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		
+	</section>
+	
+	
+	
+	
+	<!-- strings -->
+<!-- ====================================================== -->
+
+				
+
+
+	<section id='python_strings' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Strings</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">Strings are sequences of characters. any word can be considered a string.
+					To create a string, put the sequence of characters inside either single quotes or double quotes 
+					 and then assign it to a variable.
+			
+			</span>
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+				For example, if you want to print particular characters of string by using square brackets we can print but
+				with in the square brackets we have to pass the position of a character and position of characters start from 0 ( Zero ).  
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+				Suppose if you want to remove white spaces before and after a word by using <span class="keyword_bg">strip ( ) </span>
+				method we can remove.
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+				By using <span class="keyword_bg"> len ( ) </span> method we can find length of string.
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+				By using <span class="keyword_bg"> lower ( ) </span> method we can convert string into lower case letters .
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+				By using <span class="keyword_bg"> upper ( ) </span> method we can convert string into upper case letters .
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+				By using <span class="keyword_bg"> replace ( ) </span> method we can replace any character <span class="red"> or</span> string with another character <span class="red"> or</span> string .
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+				At some point, you may need to break a large string down into smaller chunks, or strings. This is the opposite of concatenation which merges or combines strings into one.
+
+				To do this, you use the <span class="keyword_bg"> split ( ) </span> method. What it does is split or breakup a string and add the data to a string array using a defined separator.
+
+				If no separator is defined when you call upon the function, whitespace will be used by default. In simpler terms, the separator is a defined character that will be placed between each variable.
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">a = </span><span class="grren">"Hello World"</span><br>	
+						<span class="white">b = </span><span class="grren">"Hello,World"</span><br>	
+						<span class="print">print <span class="white">( a [ <span class="print">1 </span> ] )</span><br>
+						<span class="print">print <span class="white">( a [ <span class="print">2 : 4 </span> ] )</span><br>
+						<span class="print">print <span class="white">( a.lower ( ) )</span><br>
+						<span class="print">print <span class="white">( a.upper ( ) )</span><br>
+						<span class="print">print <span class="white">( a.replace ( <span class="green">"Hello" <span class="white"> , </span>"Hiii.."</span> ) )</span><br>
+						<span class="print">print <span class="white">( a.replace ( <span class="green">"H" <span class="white"> , </span>"A"</span> ) )</span><br>
+						<span class="print">print <span class="white">( b.split ( <span class="green"> "," </span> ) )</span>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					e<br>
+					ll<br>
+					hello world<br>
+					HELLO WORLD<br>
+					Hiii.. World<br>
+					Aello World<br>
+					['Hello', 'World']<br>	
+					</p>
+					</div>
+			</div>
+		</div>
+		
+
+
+
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<h1 class="subhead color_padd">Command-line String Input</h1>
+			</p>
+			
+			<p class="rules">
+				<span class="space">
+					In python we can enter data in dynamically through command line. 
+					It means it will ask input for user and prints whenever it need.
+					It will done using <span class="keyword_bg"> input ( ) </span>method.
+				</span>
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="print">print</span><span class="white"> ( <span class="green"> "Enter any string : "</span> )</span><br>
+						<span class="white">a = <span class="print">input </span>( )</span><br>
+						<span class="print">print</span><span class="white"> ( <span class="green"> "You Entered  : "</span> + a )</span><br>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						Enter any string : <br>
+						Hello Wolrd<br>
+						You Entered :Hello Wolrd
+					</p>
+					</div>
+			</div>
+		</div><br>
+		
+	</section>
+
+
+	<!-- Operators
+	================================================== -->
+	
+	
+	
+	<section id='python_operators' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Operators</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space">Operators are used to perform operations on variables and values.
+
+				Python divided the operators into the following groups:</span>
+				<br>
+				<span class="space">( i ) Arithmetic operators</span><br>
+				<span class="space">( ii ) Assignment operators</span><br>
+				<span class="space">( iii ) Comparison operators</span><br>
+				<span class="space">( iv ) Logical operators</span><br>
+				<span class="space">( v ) Identity operators</span><br>
+				<span class="space">( vi ) Membership operators</span><br>
+				<span class="space">( vii ) Bitwise operators</span>
+			</p>
+			<h1 class="subhead color_padd">Arithmetic operators</h1>
+			<p class="rules">
+				<span class="space">
+						Arithmetic operators are used to perform common mathematical operations on numeric values :
+				</span>
+					<table >
+					  <tr>
+						<th>Operator</th>
+						<!-- <th>Name</th>  -->
+						<th>Example</th>
+					  </tr>
+					  <tr>
+						<td>+ ( Addition )</td>
+						<!-- <td>Addition</td> -->
+						<td>a + b</td>
+					  </tr>
+					  <tr>
+						<td>- ( Subtraction )</td>
+						<!-- <td>Subtraction</td> -->
+						<td>a - b</td>
+					  </tr>
+					  <tr>
+						<td>* ( Multiplication )</td>
+						<!-- <td>Multiplication</td> -->
+						<td>a * b</td>
+					  </tr>
+					  <tr>
+						<td>/ ( Division )</td>
+						<!-- <td>Division</td> -->
+						<td>a / b</td>
+					  </tr>
+					  <tr>
+						<td>% ( Modulus )</td>
+						<!-- <td>Modulus</td> -->
+						<td>a % b</td>
+					  </tr>
+					  <tr>
+						<td>** ( Exponentiation )</td>
+						<!-- <td>Exponentiation</td> -->
+						<td>a ** b</td>
+					  </tr>
+					  <tr>
+						<td>// ( Floor Division )</td>
+						<!-- <td>Floor Division</td> -->
+						<td>a // b</td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+			<br>
+
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+					<span class="comment"># Examples of Arithmetic Operator</span><br>
+					<span class="white">a = <span class="pink">10</span></span><br>
+					<span class="white">b = <span class="pink">18</span></span><br>
+					<span class="comment"># Addition of numbers</span><br>
+					<span class="white">addition = a + b</span><br>
+					<span class="comment"># Subtraction of numbers</span> <br>
+					<span class="white">subtraction = a - b</span><br>
+					<span class="comment"># Multiplication of number</span><br> 
+					<span class="white">multiplication = a * b</span><br>
+					<span class="comment"># Division float of number</span><br>
+					<span class="white">division = a / b</span><br>
+					<span class="comment"># Division floor of number</span><br> 
+					<span class="white">division_floor = a // b</span><br>
+					<span class="comment"># Modulo of both number</span><br>
+					<span class="white">modulo = a % b</span><br>
+					<span class="comment"># print results</span><br>
+					<span class="print">print</span> <span class="white">( addition ) </span><br>
+					<span class="print">print</span> <span class="white">( subtraction ) </span><br>
+					<span class="print">print</span> <span class="white">( multiplication ) </span><br>
+					<span class="print">print</span> <span class="white">( division ) </span><br>
+					<span class="print">print</span> <span class="white">( division_floor ) </span><br>
+					<span class="print">print</span> <span class="white">( modulo ) </span>
+					</p>
+				</div>
+			</div>
+		</div><br>
+
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						28<br>
+						-8<br>
+						180<br>
+						0<br>
+						0<br>
+						10
+					</p>
+				</div>
+			</div>
+		</div><br>
+
+		<div class="row about-desc" data-aos="fade-up">
+			<h1 class="subhead color_padd">Assignment operators </h1>
+			<p class="rules">
+				<span class="space">
+						Assignment operators are used to assign values to the variables :
+				</span>
+					<table >
+					  <tr>
+						<th>Operator</th>
+						<!-- <th>Name</th>  -->
+						<th>Example</th>
+					  </tr>
+					  <tr>
+						<td>=</td>
+						<td>a = 5 </td>
+					  </tr>
+					  <tr>
+						<td>+=</td>
+						<td>a += 5 <span class="or">or</span> a = a+5</td>
+					  </tr>
+					  <tr>
+						<td>-=</td>
+						<td>a -= 5 <span class="or">or</span> a = a-5</td>
+					  </tr>
+					  <tr>
+						<td>*=</td>
+						<td>a *= 5 <span class="or">or</span> a = a*5</td>
+					  </tr>
+					  <tr>
+						<td>/=</td>
+						<td>a /= 5 <span class="or">or</span> a = a/5</td>
+					  </tr>
+					  <tr>
+						<td>%=</td>
+						<td>a %= 5 <span class="or">or</span> a = a%5</td>
+					  </tr>
+					  <tr>
+						<td>//=</td>
+						<td>a //= 5 <span class="or">or</span> a = a//5</td>
+					  </tr>
+					  <tr>
+						<td>**=</td>
+						<td>a **= 5 <span class="or">or</span> a = a**5</td>
+					  </tr>
+					  <tr>
+						<td>&=</td>
+						<td>a &= 5 <span class="or">or</span> a = a&5</td>
+					  </tr>
+					  <tr>
+						<td>|=</td>
+						<td>a |= 5 <span class="or">or</span> a = a|5</td>
+					  </tr>
+					  <tr>
+						<td>^=</td>
+						<td>a ^= 5 <span class="or">or</span> a = a^5</td>
+					  </tr>
+					  <tr>
+						<td>>>=</td>
+						<td>a >>= 5 <span class="or">or</span> a = a>>5</td>
+					  </tr>
+					  <tr>
+						<td><<=</td>
+						<td>a <<= 5 <span class="or">or</span> a = a<<5</td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+
+		
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">a = </span><span class="pink">5</span><br>
+						<span class="white">b = </span><span class="pink">8</span><br>
+						<span class="white">c = </span><span class="pink">3</span><br>
+						<span class="white">s = </span><span class="pink">0</span><br>
+						<span class="white">d = a + b</span><br>
+						<span class="print">print </span><span class="green">"value of a + b :"</span><span  class="white">, d</span><br>
+
+						<span class="white">s += a</span><br>
+						<span class="print">print </span><span class="green">"value of s+= a :"</span><span  class="white">, s</span><br>
+
+						<span class="white">s *= b</span><br>
+						<span class="print">print </span><span class="green">"value of s*= b :"</span><span  class="white">, s</span><br>
+
+
+						<span class="white">s /= b</span><br>
+						<span class="print">print </span><span class="green">"value of s/= b :"</span><span  class="white">, s</span><br>
+						
+						<span class="white">s **= b</span><br>
+						<span class="print">print </span><span class="green">"value of s**= b :"</span><span  class="white">, s</span><br>
+						
+						<span class="white">s //= b</span><br>
+						<span class="print">print </span><span class="green">"value of s//= b :"</span><span  class="white">, s</span><br>
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						value of a + b : 13<br>
+						value of s+= a : 5<br>
+						value of s*= b : 40<br>
+						value of s/= b : 5<br>
+						value of s**= b : 390625<br>
+						value of s//= b : 48828
+					</p>
+				</div>
+			</div>
+		</div><br>
+		
+		
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<h1 class="subhead color_padd">Comparison  operators </h1>
+			<p class="rules">
+				<span class="space">
+						Comparison 	operators are used to compare two values :
+				</span>
+					<table >
+					  <tr>
+						<th>Operator</th>
+						<!-- <th>Name</th>  -->
+						<th>Example</th>
+					  </tr>
+					  <tr>
+						<td>== ( Equal )</td>
+						<td>a == b </td>
+					  </tr>
+					  <tr>
+						<td>!= ( Not Equal )	</td>
+						<td>a != b </td>
+					  </tr>
+					  <tr>
+						<td>&lt ( Less than )</td>
+						<td>a &lt b</td>
+					  </tr>
+					  <tr>
+						<td>>= ( Greater than or equal to )</td>
+						<td>a >= b</td>
+					  </tr>
+					  <tr>
+						<td><= ( Less than or equal to )</td>
+						<td>a &lt= b</td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+
+		
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">a = </span><span class="pink">5</span><br>
+						<span class="white">b = </span><span class="pink">8</span><br>
+						<span class="print">print </span><span class="white">( a <span class="print"> == </span> b )</span><br>
+						<span class="print">print </span><span class="white">( a <span class="print"> != </span> b )</span><br>
+						<span class="print">print </span><span class="white">( a <span class="print"> < </span> b )</span><br>
+						<span class="print">print </span><span class="white">( a <span class="print"> > </span> b )</span><br>
+						<span class="print">print </span><span class="white">( a <span class="print"> <= </span> b )</span><br>
+						<span class="print">print </span><span class="white">( a <span class="print"> >= </span> b )</span>
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						False<br>
+						True<br>
+						True<br>
+						False<br>
+						True<br>
+						False
+					</p>
+				</div>
+			</div>
+		</div><br>
+		
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<h1 class="subhead color_padd">Logical operators </h1>
+			<p class="rules">
+				<span class="space">
+						Logical operators are used to combine conditional statements :
+				</span>
+					<table >
+					  <tr>
+						<th>Operator</th>
+						<!-- <th>Name</th>  -->
+						<th>Example</th>
+					  </tr>
+					  <tr>
+						<td>and</td>
+						<td>a < 2 and  b < 3 </td>
+					  </tr>
+					  <tr>
+						<td>or</td>
+						<td>a < 2 or  b < 3 </td>
+					  </tr>
+					  <tr>
+						<td>not</td>
+						<td>not ( a < 2 and  b < 3 )</td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+
+		
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">a <span class="print"> = </span><span class="pink">8</span></span><br>
+						<span class="white">b <span class="print"> = </span><span class="pink">5</span></span><br>
+
+						<span class="comment"># "and" operator returns True if both statements are true	</span><br>
+						<span class="print">print </span><span class="white">( a <span class="print"> > </span><span class="white"> b</span> <span class="green">and</span> a <span class="print"> < <span class="pink">5</span> </span><span class="white"> )</span><br>
+						<span class="comment"># "or" operator returns True if one of the statements is true	</span><br>
+						<span class="print">print </span><span class="white">( a <span class="print"> > </span><span class="white"> b</span> <span class="green">or</span> a <span class="print"> < <span class="pink">5</span> </span><span class="white"> )</span><br>
+						<span class="comment"># "not" operator reverse the result, returns False if the result is true	</span><br>
+						<span class="print">print </span><span class="white">( <span class="print">not </span>( a <span class="print"> > </span><span class="white"> b</span> <span class="green">or</span> a <span class="print"> < <span class="pink">5</span> </span><span class="white"> ) )</span><br>
+						
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						False<br>
+						True<br>
+						False
+					</p>
+				</div>
+			</div>
+		</div><br>
+
+
+
+
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<h1 class="subhead color_padd">Identity operators </h1>
+			<p class="rules">
+				<span class="space">
+						Identity operators are used to compare the objects, not if they are equal, but if they are actually 
+						the same object, with the same memory location :
+				</span>
+					<table >
+					  <tr>
+						<th>Operator</th>
+						<!-- <th>Name</th>  -->
+						<th>Example</th>
+					  </tr>
+					  <tr>
+						<td>is</td>
+						<td>a is b </td>
+					  </tr>
+					  <tr>
+						<td>is not </td>
+						<td>a is not b </td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+
+		<div class="row about-desc" data-aos="fade-up">
+			<h1 class="subhead color_padd">Membership operators </h1>
+			<p class="rules">
+				<span class="space">
+						Membership operators are used to test if a sequence is presented in an object :
+				</span>
+					<table >
+					  <tr>
+						<th>Operator</th>
+						<!-- <th>Name</th>  -->
+						<th>Example</th>
+					  </tr>
+					  <tr>
+						<td>in</td>
+						<td>a in b</td>
+					  </tr>
+					  <tr>
+						<td>not in</td>
+						<td>a not in b</td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+
+		<div class="row about-desc" data-aos="fade-up">
+			<h1 class="subhead color_padd">Bitwise  operators </h1>
+			<p class="rules">
+				<span class="space">
+						Bitwise operators are used to combine conditional statements :
+				</span>
+					<table >
+					  <tr>
+						<th>Operator</th>
+						<!-- <th>Name</th>  -->
+						<th>Example</th>
+					  </tr>	
+					  <tr>
+						<td>& ( AND )</td>
+						<td>Sets each bit to 1 if both bits are 1</td>
+					  </tr>
+					  <tr>
+						<td>| ( OR )</td>
+						<td>Sets each bit to 1 if one of two bits is 1</td>
+					  </tr>
+					  <tr>
+						<td>^ ( XOR )</td>
+						<td>Sets each bit to 1 if only one of two bits is 1</td>
+					  </tr>
+					  <tr>
+						<td>~ ( NOT )</td>
+						<td>Inverts all the bits</td>
+					  </tr>
+					  <tr>
+						<td><< ( Zero fill left shift )</td>
+						<td>Shift left by pushing zeros in from the right and let the leftmost bits fall off</td>
+					  </tr>
+					  <tr>
+						<td>>> ( Signed right shift )</td>
+						<td>Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off</td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+		
+	</section>
+	
+	
+		<!-- lists -->
+<!-- ===================================================== -->
+		
+
+	<section id='python_lists' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Lists</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements.
+				In Python lists are written with square brackets.
+			
+			</span>
+			</p>
+			<p class="rules">
+				<span class="space">
+					we can also use the list() constructor to make a list. To add an item to the list use append() object method.
+					To remove a specific item use the remove() object method. The len() function returns the length of the list.
+				</span>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+
+						<span class="white">myList <span class="print"> = </span> [ <span class="green">"zero", "one", "two", "three"</span> ]</span><br>
+						<span class="print">print </span> <span class="white"> ( myList )</span><br>
+						<span class="white">myList  [ 2 ]<span class="print"> = </span><span class="green">"null"</span></span><br>
+						<span class="print">print </span> <span class="white"> ( myList )</span><br>
+						<br>
+							
+						<span class="white">languages <span class="print"> = </span> <span class="green">list </span> ( ( <span class="green">"Spanish", "French", "English"</span> ) )</span><br>
+						<span class="print">print </span> <span class="white"> ( languages )</span><br>
+						<span class="print">languages.</span><span class="white">append( "Japanese" )</span><br>
+						<span class="print">print </span> <span class="white"> ( languages )</span><br>
+						<span class="print">languages.</span><span class="white">remove( "French" )</span><br>
+						<span class="print">print </span> <span class="white"> ( languages )</span><br>
+						<span class="print">print </span> <span class="white"> ( <span class="green">len</span> ( languages ) )</span><br>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						['zero', 'one', 'two', 'three']<br>
+						['zero', 'one', 'null', 'three']<br><br>
+						['Spanish', 'French', 'English']<br>
+						['Spanish', 'French', 'English', 'Japanese']<br>
+						['Spanish', 'English', 'Japanese']<br>
+						3
+					</p>
+					</div>
+			</div>
+		<br><br>
+		
+
+
+		<div class="row about-desc" data-aos="fade-up">
+			<h1 class="subhead color_padd">List Methods </h1>
+			<p class="rules">
+					<table >
+					  <tr>
+						<th>Method</th>
+						<th>Description</th>
+					  </tr>
+					  <tr>
+						<td>append ( )</td>
+						<td>Adds an element at the end of the list</td>
+					  </tr>
+					  <tr>
+						<td>clear ( )</td>
+						<td>Removes all the elements from the list</td>
+					  </tr>
+					  <tr>
+						<td>copy ( )</td>
+						<td>Returns a copy of the list</td>
+					  </tr>
+					  <tr>
+						<td>count ( )</td>
+						<td>Returns the number of elements with the specified value</td>
+					  </tr>
+					  <tr>
+						<td>extend ( )</td>
+						<td>Add the elements of a list (or any iterable), to the end of the current list</td>
+					  </tr>
+					  <tr>
+						<td>index ( )</td>
+						<td>Returns the index of the first element with the specified value</td>
+					  </tr>
+					  <tr>
+						<td>insert ( )</td>
+						<td>Adds an element at the specified position</td>
+					  </tr>
+					  <tr>
+						<td>pop ( )</td>
+						<td>Removes the element at the specified position</td>
+					  </tr>
+					  <tr>
+						<td>remove ( )</td>
+						<td>Removes the first item with the specified value</td>
+					  </tr>
+					  <tr>
+						<td>reverse ( )</td>
+						<td>Reverses the order of the list</td>
+					  </tr>
+					  <tr>
+						<td>sort ( )</td>
+						<td>Sorts the list</td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+
+	</section>	
+
+
+
+	
+	
+	
+	
+	
+	<!-- Tuples
+	================================================== -->
+	
+	
+	
+	<section id='python_tuples' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Tuples</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space">A tuple is a sequence of immutable Python objects. Tuples are sequences, 
+				just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists 
+				and tuples use parentheses, whereas lists use square brackets.</span>
+			</p>
+
+		</div>
+		
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+					
+						<span class="white">myFirstTuple =  ( <span class="green">" Kristen "</span>, <span class="green">" Emma Watson "</span>, <span class="green">" Scarlett Johansson "</span>, <span class="green">" Gal Gadot "</span> )</span><br>
+						
+						<span class="print">print </span><span class="white"> ( myFirstTuple )</span><br>
+						<span class="print">print </span><span class="white"> ( myFirstTuple [ <span class="pink">2</span> ] )</span><br>
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">		
+							
+							(' Kristen ', ' Emma Watson ', ' Scarlett Johansson ', ' Gal Gadot ')<br>
+							Scarlett Johansson 
+					
+					</p>
+				</div>
+			</div>
+		</div><br>
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space"> 
+					<span class="red"><b>*</b></span> In Python we are not able to change tuple items once we assign & also we can't remove any tuple items. 
+				</span>
+			</p>
+		</div>
+		<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error  Example:</h4>
+					<div class="code_sub_block error_sub">
+						<p>
+							
+							<span class="white">myFirstTuple =  ( <span class="green">" Kristen "</span>, <span class="green">" Emma Watson "</span>, <span class="green">" Scarlett Johansson "</span>, <span class="green">" Gal Gadot "</span> )</span><br>
+							
+							<span class="white">myFirstTuple [ <span class="pink">0</span> ] <span class="orange">= <span class="green">" Bella "</span></span></span><br>
+							<span class="print">print </span><span class="white"> ( myFirstTuple )</span><br>
+							
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error  Details :</h4>			
+						<div class="code_sub_block error_sub">
+						<p class="comment" style="color:red">
+							
+							File "file_name.py", line 2, in <module> <br>
+								myFirstTuple [ 0 ] = " Bella "<br>
+							TypeError: 'tuple' object does not support item assignment
+						
+						</p>
+					</div>
+				</div>
+			</div>
+	
+		
+		
+	</section>
+	
+	
+	
+	
+	
+	
+		<!-- Sets -->
+<!-- ===================================================== -->
+		
+
+	<section id='python_sets' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Sets</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">Set in Python is a data structure equivalent to sets in mathematics. 
+			It may consist of various elements; the order of elements in a set is undefined. You can 
+			add and delete elements of a set, you can iterate the elements of the set.
+			
+			</span>
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+
+						<span class="white">myFirstSet =  { <span class="green">" Kristen "</span>, <span class="green">" Emma Watson "</span>, <span class="green">" Scarlett Johansson "</span>, <span class="green">" Gal Gadot "</span> }</span><br>
+						
+						<span class="print">print </span><span class="white"> ( myFirstSet )</span><br>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						set([' Gal Gadot ', ' Kristen ', ' Scarlett Johansson ', ' Emma Watson '])
+					</p>
+					</div>
+			</div>
+		<br><br>
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">
+					You can use the <span class="keyword_bg"> add( ) </span> object method to add an item, and the<span class="keyword_bg" > remove( ) </span> 
+					object method to remove an item from the set. 
+					The <span class="keyword_bg"> len( ) </span> function returns the size of the set.
+			
+			</span>
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+
+						<span class="white">myFirstSet =  { <span class="green">" Kristen "</span>, <span class="green">" Emma Watson "</span>, <span class="green">" Scarlett Johansson "</span>, <span class="green">" Gal Gadot "</span> }</span><br>
+						
+						<span class="print">print </span><span class="white"> ( myFirstSet )</span><br>
+						<span class="white">myFirstSet.add ( <span class="green"> " Michelle Rodriguez  "</span> )</span><br>
+						<span class="print">print </span><span class="white"> ( myFirstSet )</span><br>
+						<span class="white">myFirstSet.remove ( <span class="green"> " Emma Watson  "</span> )</span><br>
+						<span class="print">print </span><span class="white"> ( myFirstSet )</span><br>
+						
+						<span class="print">print </span><span class="white"> ( <span class="orange">len </span>( myFirstSet ) )</span><br>
+
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						set([' Gal Gadot ', ' Kristen ', ' Scarlett Johansson ', ' Emma Watson '])<br>
+						set([' Gal Gadot ', ' Kristen ', ' Scarlett Johansson ', ' Michelle Rodriguez ', ' Emma Watson '])<br>
+						set([' Gal Gadot ', ' Kristen ', ' Scarlett Johansson ', ' Michelle Rodriguez '])<br>
+						4
+					</p>
+					</div>
+			</div>
+		<br><br>
+
+	</section>	
+
+
+	
+	
+	
+	
+
+	<!-- Python Dictionaries
+	================================================== -->
+	
+	
+	
+	<section id='python_dictionaries' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Dictionaries</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space">A dictionary is an associative array (also known as hashes). 
+				Any key of the dictionary is associated (or mapped) to a value. The values of a 
+				dictionary can be any Python data type. So dictionaries are unordered key-value-pairs.
+				In Python dictionaries are written with curly brackets, and they have keys and values.
+				
+				</span>
+			</p>
+
+		</div>
+		
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">
+						myDict <span class="orange"> = </span>	{</span><br>
+						  <span class="green">"MongoDB" <span class "white" > : </span> "Databse",<br>
+						  "Java" <span class ="white" > : </span> "Programming Language",<br>
+						  "JavaScript"<span class ="white" > : </span> "Scripting Language"</span><br>
+						<span class ="white" > } </span><br>
+						<span class="print">print </span> <Span class="white" >( myDict ) </span>
+						
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">		
+							{'MongoDB': 'Databse', 'JavaScript': 'Scripting Language', 'Java': 'Programming Language'}
+					
+					</p>
+				</div>
+			</div>
+		</div><br>
+
+
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space"> 
+					<span class="red"><b>*</b></span> It is also possible to use the dict() constructor to make a dictionary. 
+				</span>
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">
+						myDict <span class="orange"> = </span> dict	( 
+						  <span class="white">MongoDB </span>  <span class="orange"> = </span> <span class="green">"Databse"</span><span class="white"> , </span>
+						  <span class="white">Java </span>  <span class="orange"> = </span> <span class="green">"Programming Language"</span><span class="white"> , </span>
+						  <span class="white">JavaScript </span> <span class="orange"> = </span> <span class="green">"Scripting Language"</span><span class="white"> ) </span><br>
+						  
+						<span class="print">print </span> <Span class="white" >( myDict ) </span>
+						
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">		
+							{'MongoDB': 'Databse', 'JavaScript': 'Scripting Language', 'Java': 'Programming Language'}
+					
+					</p>
+				</div>
+			</div>
+		</div><br>
+		
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space"> 
+					<span class="red"><b>*</b></span>In python dictionary, We can able to Add, Remove & Update items in the dictionary and we can also find length of dictionary. 
+				</span>
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">
+						myDict <span class="orange"> = </span>	{</span><br>
+						  <span class="green">"MongoDB" <span class "white" > : </span> "Databse",<br>
+						  "Java" <span class ="white" > : </span> "Programming Language",<br>
+						  "JavaScript"<span class ="white" > : </span> "Scripting Language"</span><br>
+						<span class ="white" > } </span><br>
+						<span class="print">print </span> <Span class="white" >( myDict ) </span><br><br>
+						<span class="comment"># Updating</span>  <br>
+						<span class="white">myDict [ <span class="green"> "MongoDB" </span> ]<span class="orange"> = </span><span class="green" > "Programming Language"</span><br>
+						<span class="print">print</span> ( myDict )<br><br>
+						<span class="comment"># Adding</span> <br>
+						<span class="white">myDict [ <span class="green"> "PHP" </span> ]<span class="orange"> = </span><span class="green" > "Scripting Language"</span><br>
+						<span class="print">print</span> ( myDict )<br><br>
+						<span class="comment"># Removing</span> <br>
+						<span class="orange">del </span></span class="white">( myDict [ <span class="green" >"MongoDB" </span> ] )</span><br>
+						<span class="print">print</span> ( myDict )<br><br>
+						<span class="comment"># Finding Length</span> <br>
+						<span class="print">print</span> ( <span class="orange"> len </span> ( myDict ) )<br><br>
+						
+						
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">		
+						{'MongoDB': 'Databse', 'JavaScript': 'Scripting Language', 'Java': 'Programming Language'}<br><br>
+						{'MongoDB': 'Programming Language', 'JavaScript': 'Scripting Language', 'Java': 'Programming Language'}<br><br>
+						{'MongoDB': 'Programming Language', 'JavaScript': 'Scripting Language', 'Java': 'Programming Language', 'PHP': 'Scripting Language'}<br><br>
+						{'JavaScript': 'Scripting Language', 'Java': 'Programming Language', 'PHP': 'Scripting Language'}<br><br>
+						3
+					</p>
+				</div>
+			</div>
+		</div><br>
+		
+		
+	</section>
+	
+	
+	
+	
+	
+		<!-- conditions -->
+<!-- ===================================================== -->
+		
+
+	<section id='python_conditions' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <!-- <h1 class="display-23 orange">IF , ELIF & ELSE</h1> -->
+                <h1 class="display-23 orange">if , elif & else</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">
+				Decision making is required when we want to execute 
+				a code only if a certain condition is satisfied.
+				<br><br>
+				The <span class="keyword_bg"> if…elif…else</span> statement is used in Python for decision making.
+			</span><br>
+				<img class="img_python" id="img_python" alt="IF Condition Flow Chart" src="images/if.png"></img>
+			</p>
+		
+		</div><br>
+		
+		
+		<div class="row about-desc" data-aos="fade-up">
+		
+			<h1 class="subhead color_padd">IF </h1>
+		
+			<p class="rules">
+				<span class="red">*</span> <span class="keyword_bg">" IF "</span> statement consists a condition, followed by statement or a set of statements as shown below:
+			</p>
+		
+		</div>
+		
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">x</span><span class="orange"> = </span><span class="pink"> 15</span><br>
+						<span class="white">y</span><span class="orange"> = </span><span class="pink"> 10</span><br>
+						<span class="orange">if </span><span class="white"> x <span class="orange"> > </span> y :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( <span class="green"> "x is greater than y" </span> )</span>
+						 
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					x is greater than y
+					</p>
+					</div>
+			</div>
+		<br><br>
+		
+		<div class="row about-desc" data-aos="fade-up">
+		
+			<h1 class="subhead color_padd">ELIF </h1>
+			<p class="rules">
+				<span class="red">*</span> In python <span class="keyword_bg">" elif "</span> is equivalent to <span class="keyword_bg">" else if "</span> statement.
+
+					Let us see an example for this statement using a function
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+												<span class="white">x</span><span class="orange"> = </span><span class="pink"> 8</span><br>
+						<span class="white">y</span><span class="orange"> = </span><span class="pink"> 9</span><br>
+						<span class="orange">if </span><span class="white"> x <span class="orange"> > </span> y :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( <span class="green"> "x is greater than y" </span> )</span><br>
+						<span class="orange">if </span><span class="white"> x <span class="orange"> < </span> y :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( <span class="green"> "y is greater than x" </span> )</span><br>
+						
+				
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						y is greater than x
+					
+					</p>
+					</div>
+			</div>
+		<br><br>
+
+		
+		<div class="row about-desc" data-aos="fade-up">
+		
+			<h1 class="subhead color_padd">ELSE </h1>
+			<p class="rules">
+				<span class="red">*</span> the statements inside <span class="keyword_bg">" else "</span> would execute if all the conditions are false.
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+												<span class="white">x</span><span class="orange"> = </span><span class="pink"> 5</span><br>
+						<span class="white">y</span><span class="orange"> = </span><span class="pink"> 5</span><br>
+						<span class="orange">if </span><span class="white"> x <span class="orange"> > </span> y :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( <span class="green"> "x is greater than y." </span> )</span><br>
+						<span class="orange">if </span><span class="white"> x <span class="orange"> < </span> y :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( <span class="green"> "y is greater than x." </span> )</span><br>
+						<span class="orange">else </span><span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( <span class="green"> "x & y both are equal." </span> )</span><br>
+						
+				
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						x & y both are equal.
+
+					</p>
+					</div>
+			</div>
+		<br><br>
+		
+			
+			<div class="row about-desc" id="extra_padd" data-aos="fade-up">
+				<p class="rules"><span class="red">* </span> Below python program shows the without Indentation, when it run it gives an error </p>
+			</div>
+				
+			<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error  Example (Without Indentation) :</h4>
+					<div class="code_sub_block error_sub">
+						<p><span class="white">a = </span><span class="pink">5</span><br>
+						<span class="white">b = </span><span class="pink">10</span><br>
+						<span class="print">if &nbsp&nbsp&nbsp</span><span class="white">b > a &nbsp: </span><br>
+						<span class="print">print </span><span class="green"> <span  class="white"> ( </span>" b have greater value. "<span  class="white"> ) </span></span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block error" data-aos="fade-up">
+					<h4>Error  Details :</h4>			
+						<div class="code_sub_block error_sub">
+						<p class="comment" style="color:red">
+						File "file_name.py", line 4<br>
+						print " b have greater value. "<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	^<br>
+						IndentationError: expected an indented block<br>
+						</p>
+					</div>
+				</div>
+			</div>
+		
+	</section>	
+
+
+	<!-- while loops  -->
+	<!-- ================================ -->
+	
+	
+	<section id='python_while_loop' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">While Loop</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"><b class="red">*</b> while loop we can execute a set of statements as long as a condition is true.</p>
+			<p class="rules"><b class="red">*</b> <span class="keyword_bg_2"> break </span>statement we can stop the loop even if the while condition is true.</p>
+			<p class="rules"><b class="red">*</b> <span class="keyword_bg_2"> continue </span> statement we can stop the current iteration, and continue with the next.</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<p>
+						<span class="white">i </span><span class="orange"> = </span> <span class="pink"> 1</span><br>
+						<span class="orange">while <span class="white"> i </span> < </span><span class="pink"> 5 </span><span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white"> ( i )<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp i </span><span class="orange"> +=</span> <span class="pink"> 1</span>
+					</p>
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p>			
+					<span class="comment">
+						1<br>
+						2<br>
+						3<br>
+						4
+					</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<br><br>
+		<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example ( <span class="orange">Using  break </span> ) :</h4>
+					<div class="code_sub_block">
+					
+					<p>
+						<span class="white">i </span><span class="orange"> = </span> <span class="pink"> 1</span><br>
+						<span class="orange">while <span class="white"> i </span> < </span><span class="pink"> 5 </span><span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white"> ( i )<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">if <span class="white"> i </span> == </span><span class="pink"> 2 </span><span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">break</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp i </span><span class="orange"> +=</span> <span class="pink"> 1</span>
+					</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+						1<br>
+						2
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<br><br>
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example ( <span class="orange">Using  continue </span> ) :</h4>
+					<div class="code_sub_block">
+						<p>
+						<span class="white">i </span><span class="orange"> = </span> <span class="pink"> 1</span><br>
+						<span class="orange">while <span class="white"> i </span> < </span><span class="pink"> 5 </span><span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp i </span><span class="orange"> +=</span> <span class="pink"> 1</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">if <span class="white"> i </span> == </span><span class="pink"> 2 </span><span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">continue</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white"> ( i )
+							
+						
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+						3<br>
+						4<br>
+						5
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+	</section>
+	
+	
+	<!-- for loop -->
+	<!-- ========================================== -->
+	
+	<section id="python_for_loop" class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <!-- <h1 class="display-23 orange">IF , ELIF & ELSE</h1> -->
+                <h1 class="display-23 orange">For Loop</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">
+				The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects.
+				This is less like the for keyword in other programming language, and works more like an iterator method 
+				as found in other object-orientated programming languages.<br>
+				<span class="red"><b>* </b></span><span class="orange"> break </span> statement we can stop the loop before it has looped through all the items.<br>
+				<span class="red"><b>* </b></span><span class="orange"> continue </span> statement we can stop the current iteration of the loop, and continue with the next.<br>
+				
+			</span><br>
+			
+			</p>
+		
+		</div><br>
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">names <span class="orange"> = </span> [ <span class="green"> " Krsiten " </span>, <span class="green"> " Bella " </span>, <span class="green"> " Watson " </span>, <span class="green"> " Jhon " </span> ]</span><br>
+						<span class="orange">for <span class="white"> x </span> in </span><span class="white">names :<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">print </span> ( x )</span>
+				
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					 Krsiten <br>
+					 Bella <br>
+					 Watson <br>
+					 Jhon 
+					</p>
+					</div>
+			</div>
+		<br><br>
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example ( <span class="orange">Using break</span> ) :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">names <span class="orange"> = </span> [ <span class="green"> " Krsiten " </span>, <span class="green"> " Bella " </span>, <span class="green"> " Watson " </span>, <span class="green"> " Jhon " </span> ]</span><br>
+						<span class="orange">for <span class="white"> x </span> in </span><span class="white">names :<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">if <span class="white"> x </span> == </span><span class="green"> " Bella " <span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">break</span></span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">print </span> ( x )</span>
+				
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					 Krsiten  
+					</p>
+					</div>
+			</div>
+		<br><br>
+		
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example ( <span class="orange">Using continue</span> ) :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">names <span class="orange"> = </span> [ <span class="green"> " Krsiten " </span>, <span class="green"> " Bella " </span>, <span class="green"> " Watson " </span>, <span class="green"> " Jhon " </span> ]</span><br>
+						<span class="orange">for <span class="white"> x </span> in </span><span class="white">names :<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">if <span class="white"> x </span> == </span><span class="green"> " Bella " <span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">continue</span></span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">print </span> ( x )</span>
+				
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					  Krsiten <br>
+					  Watson <br>
+					  Jhon 
+					</p>
+					</div>
+			</div>
+		<br><br>
+		
+		
+		
+		
+		<div class="row about-desc" data-aos="fade-up">
+		
+			<h1 class="subhead color_padd">range() Function </h1>
+			<p class="rules">
+				<span class="red">*</span> To loop through a set of code a specified number of times, we can use the range() function.<br>
+				<span class="red">*</span> The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.<br>
+				<span class="red">*</span> The range() function defaults to 0 as a starting value, however it is possible to specify the starting value by adding a parameter.
+				range(5, 8), which means values from 5 to 8 (but not including 8).<br>
+				<span class="red">*</span> The range() function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: range(5, 50, 5).
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">for <span class="white"> x </span> in range </span><span class="white">( <span class="pink"> 5 </span> ) :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( x )</span><br><br>
+						<span class="orange">for <span class="white"> y </span> in range </span><span class="white">( <span class="pink"> 25 </span>, <span class="pink"> 29 </span> ) :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( y )</span><br><br>
+						<span class="orange">for <span class="white"> z </span> in range </span><span class="white">( <span class="pink"> 5 </span>, <span class="pink"> 50 </span>, <span class="pink"> 5 </span> ) :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class="white"> ( z )</span>		
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					0<br>
+					1<br>
+					2<br>
+					3<br>
+					4<br><br>
+					25<br>
+					26<br>
+					27<br>
+					28<br><br>
+					5<br>
+					10<br>
+					15<br>
+					20<br>
+					25<br>
+					30<br>
+					35<br>
+					40<br>
+					45
+					</p>
+					</div>
+			</div>
+		<br><br>
+
+		
+		<div class="row about-desc" data-aos="fade-up">
+		
+			<h1 class="subhead color_padd">Recursion</h1>
+			<p class="rules">
+				<span class="space">Recursion is a way of programming or coding a problem, in which a function
+				calls itself one or more times in its body. Usually, it is returning the return value of this
+				function call. If a function definition fulfils the condition of recursion, we call this 
+				function a recursive function.</span>
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">def </span><span class="white"> factorial_of_number  ( f ) :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange"> if <span class="white"> f </span> == <span class="pink"> 1</span><span class="white"> : </span></span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange"> return</span> <span class="pink"> 1</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">else </span><span class="white"> :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange"> return</span> <span class="white">( f <span class="orange"> * </span> factorial_of_number ( f <span class="orange"> - </span><span class="pink"> 1 </span> ) ) </span><br>
+						<span class="white">number </span><span class="orange"> = </span><span class="pink"> 15 </span><br>
+						<span class="print">print </span><span class="white">( <span class="green">"Factorial of "</span>, number, <span class="green">  " = " </span>, factorial_of_number ( number ) )</span>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						('Factorial of ', 15, ' = ', 1307674368000)
+					</p>
+					</div>
+			</div>
+		
+		
+	</section>	
+
+
+
+	
+
+	<!-- functions  -->
+	<!-- ================================ -->
+	
+	
+	<section id='python_functions' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Functions</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"><span class="space">
+				A function is a block of organized, reusable code that is used to perform a single,
+				related action. Functions provide better modularity for your application and a high
+				degree of code reusing. As you already know, Python gives you many built-in functions
+				like print(), etc. but you can also create your own functions.
+			</span><br>
+			<span class="space"></span> In Python a function is defined using the <span class="keyword_bg_2"> def </span> keyword.
+			To call a function, use the function name followed by parenthesis.
+			</p>
+			</div>
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">def </span><span class="white">firstFunction () :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white"> ( <span class="green"> " Hello Wolrd " </span> )</span><br>
+						<span class="white"> firstFunction ()</span>
+						
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p>			
+					<span class="comment">
+						 Hello Wolrd 
+					</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<br><br>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"><span class="space">
+				A function can take parameters which are just values you supply to the function
+				so that the function can do something utilising those values. These parameters
+				are just like variables except that the values of these variables are defined
+				when we call the function and are not assigned values within the function itself.
+
+				Parameters are specified within the pair of parentheses in the function definition,
+				separated by commas. When we call the function, we supply the values in the same way.
+				<br><span class="space"></span><span class="keyword_bg_2">the names given in the function definition are called parameters
+				whereas the values you supply in the function call are called arguments.</span>
+			</p>
+			</div>
+		
+		<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example :</h4>
+					<div class="code_sub_block">
+					
+					<p>
+						<span class="orange">def </span><span class="white">firstFunction ( name ) :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white"> ( <span class="green"> " Hello, " </span><span class="orange"> + </span> name <span class="orange"> + </span> <span class="green"> " thanks for choosing our web site. "</span> )</span><br>
+						<span class="white"> firstFunction ( <span class="green"> " Kristen " </span> )</span>
+						
+					</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+							Hello,  Kristen  thanks for choosing our web site. 
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<br><br>
+			<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"><span class="red"><b>* </b></span> In python we can also give a default parameter.<br>
+			<p class="rules"><span class="red"><b>* </b></span> In python functions can return a value by using <span class="keyword_bg_2"> return </span> statement.
+			</p>
+			</div>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example :</h4>
+					<div class="code_sub_block">
+						<p>
+							<span class="orange">def </span><span class="white">firstFunction ( name <span class="orange"> = </span> <span class="green"> " User " </span> ) :</span><br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white"> ( <span class="green"> " Hello, " </span><span class="orange"> + </span> name <span class="orange"> + </span> <span class="green"> " thanks for choosing our web site. "</span> )</span><br>
+							<span class="white"> firstFunction ( <span class="green"> " Kristen " </span> )</span><br>
+							<span class="white"> firstFunction (  )</span><br><br>
+							
+							<span class="comment"># Function with return statement</span><br>
+							<span class="orange">def </span><span class="white">secondFunction ( number ) :</span><br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange"> return <span class="white"> number </span> * </span><span class="white"> number</span><br>
+							<span class="print">print </span><span class="white"> ( secondFunction ( <span class="pink"> 25 </span> ) )</span>
+							
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+						Hello,  Kristen  thanks for choosing our web site. <br>
+						Hello,  User  thanks for choosing our web site. <br>
+						625
+						
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+	</section>
+	
+
+
+
+
+		
+	<!-- lambda -->
+<!-- ====================================================== -->
+
+				
+
+
+	<section id='python_lambda' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">LAMBDA</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">A lambda function is a small anonymous function.
+
+A lambda function can take any number of arguments, but can only have one expression. Lambda functions are mainly used in combination with the functions filter(),
+			map() and reduce(). The lambda feature was added to Python due to the demand from Lisp programmers. 
+			
+			
+			</span><br>
+			<h3>Syntax : </h3>
+			<span class="keyword_bg" style="margin:auto">lambda arguments : expression</span>
+			</p>
+			
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">a </span><span class="orange"> = lambda <span class="white"> x : x</span> +</span><span class="pink"> 25</span><br>
+						<span class="print">print </span><span class="white"> ( a ( <span class="pink">12</span> ) ) </span><br><br>
+						<span class="white">b </span><span class="orange"> = lambda <span class="white"> x, y : x </span> % </span><span class="white"> y</span><br>
+						<span class="print">print </span><span class="white"> ( b ( <span class="pink">15, 5</span> ) ) </span><br><br>
+						<span class="white">c </span><span class="orange"> = lambda <span class="white"> x, y, z : x </span> *</span><span class="white"> y <span class="orange"> *</span> z</span><br>
+						<span class="print">print </span><span class="white"> ( c ( <span class="pink">23, 14, 8</span> ) ) </span>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					37<br>
+					0<br>
+					2576	
+					</p>
+					</div>
+			</div>
+		</div>
+		
+
+
+
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<h1 class="subhead color_padd">use with filter </h1>
+			</p>
+			
+			<p class="rules">
+				<span class="space">
+					The <span class="keyword_bg">filter ()</span> function in Python takes in a function and a list as arguments.
+
+					The function is called with all the items in the list and a new list is returned
+					which contains items for which the function evaluats to True.
+				</span>
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>	<span class="comment"># below program filter even numbers from the list </span><br>
+						<span class="white">first_list <span class="orange"> = </span> [ <span class="pink">4</span>, <span class="pink">7</span>, <span class="pink">8</span>, <span class="pink">12</span>, <span class="pink">13</span>, <span class="pink">17</span>, <span class="pink">20</span> ]</span><br>
+						<span class="white">updated_list <span class="orange"> = list</span> ( <span class="orange">filter </span>( <span class="orange"> lambda </span> a: (a <span class="orange">% <span class="pink">2</span> == </span> <span class="pink"> 0</span> ) , first_list ) )</span><br>
+						<span class="print">print </span><span class="white"> ( updated_list )</span>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						[4, 8, 12, 20]
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<h1 class="subhead color_padd">use with map </h1>
+			</p>
+			
+			<p class="rules">
+				<span class="space">
+					The <span class="keyword_bg">map ()</span> function in Python takes in a function and a list.
+
+					The function is called with all the items in the list and a new list is returned which contains
+					items returned by that function for each item.
+				</span>
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>	<span class="comment"># below program double each item in list </span><br>
+						<span class="white">first_list <span class="orange"> = </span> [ <span class="pink">4</span>, <span class="pink">7</span>, <span class="pink">8</span>, <span class="pink">12</span>, <span class="pink">13</span>, <span class="pink">17</span>, <span class="pink">20</span> ]</span><br>
+						<span class="white">updated_list <span class="orange"> = list</span> ( <span class="orange">map </span>( <span class="orange"> lambda </span> a: (a <span class="orange">* <span class="pink">2</span>  </span> ) , first_list ) )</span><br>
+						<span class="print">print </span><span class="white"> ( updated_list )</span>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						[8, 14, 16, 24, 26, 34, 40]
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<h1 class="subhead color_padd">Lambda Functions </h1>
+			</p>
+			
+			<p class="rules">
+				<span class="space">
+					The power of lambda is better shown when you use them as an anonymous function inside another
+					function.
+
+					Say you have a function definition that takes one argument, and that argument will be 
+					multiplied with an unknown number.
+				</span>
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>	
+						<span class="orange">def <span class="white">lmbdaFun ( x ) :</span><br>
+						&nbsp&nbsp&nbsp&nbsp return lambda <span class="white"> a : a </span> * <span class="white"> x</span><br>
+						<span class="white">subFun</span> = <span class="white">lmbdaFun ( <span class="pink"> 5 </span> )</span><br>
+						<span class="print">print </span> <span class="white"> ( subFun ( <span class="pink">25</span> ) )</span></span>
+						
+					
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						125
+					</p>
+					</div>
+			</div>
+		</div><br>
+		
+	</section>
+
+
+	
+
+
+	
+	<!-- Arrays
+	================================================== -->
+	
+	
+	
+	<section id='python_arrays' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Arrays</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+				<span class="space">
+							Arrays are fundamental part of most programming languages. It is the 
+							collection of elements of a single data type, eg. array of int , 
+							array of string . However, in Python, there is no native array 
+							data structure.
+				</span>
+			</p>
+		</div>
+
+			<br>
+
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">fruits <span class="orange"> = </span> [ <span class="green">"Apple"</span>, <span class="green">"Mango"</span>, <span class="green">"Grapes"</span>, <span class="green">"Blueberries"</span> ]</span><br><br> 
+						<span class="comment"># printing array </span><br>
+						<span class="print">print </span><span class="white">( fruits ) </span><br><br>
+						<span class="comment"># printing array using for loop </span><br>
+						<span class="orange">for <span class="white"> x </span> in</span><span class="white"> fruits :<br>
+						&nbsp&nbsp&nbsp&nbsp <span class="print">print </span> ( x ) </span><br><br>
+						<span class="comment"># printing array individual elements using index value & if use negative index value it points last to first order </span><br>
+						<span class="print">print </span><span class="white"> ( fruits [ <span class="pink">1</span> ] ) </span><br>
+						<span class="print">print </span><span class="white"> ( fruits [ <span class="orange">-</span><span class="pink">1</span> ] ) </span><br>
+					</p>
+				</div>
+			</div>
+		</div><br>
+
+		
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						['Apple', 'Mango', 'Grapes', 'Blueberries']<br>
+						Apple<br>
+						Mango<br>
+						Grapes<br>
+						Blueberries<br>
+						Mango<br>
+						Blueberries
+					</p>
+				</div>
+			</div>
+		</div><br>
+		
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<h1 class="subhead color_padd">Python array Methods </h1>
+			<p class="rules">
+				<span class="space">
+						python has a set of built-in methods that you can use on arrays.
+				</span>
+					<table >
+					  <tr>
+						<th>Method</th>
+						<!-- <th>Name</th>  -->
+						<th>Function</th>
+					  </tr>
+					  <tr>
+						<td>append()</td>
+						<td>to add element to the end of the list </td>
+					  </tr>
+					  <tr>
+						<td>extend()</td>
+						<td>to extend all elements of a list to the another list</td>
+					  </tr>
+					  <tr>
+						<td>insert()</td>
+						<td>to insert an element at the another index</td>
+					  </tr>
+					  <tr>
+						<td>remove()</td>
+						<td>to remove an element from the list</td>
+					  </tr>
+					  <tr>
+						<td>pop()</td>
+						<td>to remove elements return element at the given index</td>
+					  </tr>
+					  <tr>
+						<td>clear()</td>
+						<td>to remove all elements from the list</td>
+					  </tr>
+					  <tr>
+						<td>index()</td>
+						<td>to return the index of the first matched element</td>
+					  </tr>
+					  <tr>
+						<td>count()</td>
+						<td>to count of number of elements passed as an argument</td>
+					  </tr>
+					  <tr>
+						<td>sort()</td>
+						<td>to sort the elements in ascending order by default</td>
+					  </tr>
+					  <tr>
+						<td>reverse()</td>
+						<td>to reverse order element in a list</td>
+					  </tr>
+					  <tr>
+						<td>copy()</td>
+						<td>to return a copy of elements in a list</td>
+					  </tr>
+					</table>
+
+			</p>
+		</div>
+
+
+		
+		
+		
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">fruits <span class="orange"> = </span> [ <span class="green">"Apple"</span>, <span class="green">"Mango"</span>, <span class="green">"Grapes"</span>, <span class="green">"Blueberries"</span> ]</span><br> 
+						<span class="white">numbers <span class="orange"> = </span> [ <span class="pink">1</span>, <span class="pink">2</span>, <span class="pink">3</span>, <span class="pink">4</span> ]</span><br><br> 
+						<span class="comment"># append </span><br>
+						<span class="white">fruits.append( <span class="green">"cherry"</span> )</span><br>
+						<span class="print">print </span><span class="white">( fruits )</span><br><br>
+						<span class="comment"># extend </span><br>
+						<span class="white">fruits.append( numbers )</span><br>
+						<span class="print">print </span><span class="white">( fruits )</span><br><br>
+						<span class="comment"># insert </span><br>
+						<span class="white">x <span class="orange"> = </span>fruits.insert(<span class="pink">0</span>, <span class="green">"Blueberries"</span>)</span><br>
+						<span class="print">print </span><span class="white">( fruits )</span><br><br>
+						<span class="comment"># remove </span><br>
+						<span class="white">fruits.append( <span class="green">"Apple"</span> )</span><br>
+						<span class="print">print </span><span class="white">( fruits )</span><br><br>
+						<span class="comment"># pop </span><br>
+						<span class="white">fruits.pop(<span class="pink">1</span>)</span><br>
+						<span class="print">print </span><span class="white">( fruits )</span><br><br>
+						<span class="comment"># index</span><br>
+						<span class="white">x <span class="orange"> = </span>fruits.index(<span class="green">"Mango"</span>)</span><br>
+						<span class="print">print </span><span class="white">( x )</span><br><br>
+						<span class="comment"># count</span><br>
+						<span class="white">x <span class="orange"> = </span>fruits.count(<span class="green">"Blueberries"</span>)</span><br>
+						<span class="print">print </span><span class="white">( x )</span><br><br>
+						<span class="comment"># sorts</span><br>
+						<span class="white">fruits.sort()</span><br>
+						<span class="print">print </span><span class="white">( fruits )</span><br><br>
+						<span class="comment"># reverse</span><br>
+						<span class="white">fruits.reverse()</span><br>
+						<span class="print">print </span><span class="white">( fruits )</span><br><br>
+						<span class="comment"># copy</span><br>
+						<span class="white">x <span class="orange"> = </span>fruits.copy()</span><br>
+						<span class="print">print </span><span class="white">( x )</span><br><br>
+						<span class="comment"># clear</span><br>
+						<span class="white">fruits.clear()</span><br>
+						<span class="print">print </span><span class="white">( fruits )</span><br><br>
+						
+						
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+							
+							['Apple', 'Mango', 'Grapes', 'Blueberries', 'cherry']<br>
+							['Apple', 'Mango', 'Grapes', 'Blueberries', 'cherry', [1, 2, 3, 4]]<br>
+							['Blueberries', 'Apple', 'Mango', 'Grapes', 'Blueberries', 'cherry', [1, 2, 3, 4]]<br>
+							['Blueberries', 'Apple', 'Mango', 'Grapes', 'Blueberries', 'cherry', [1, 2, 3, 4], 'Apple']<br>
+							['Blueberries', 'Mango', 'Grapes', 'Blueberries', 'cherry', [1, 2, 3, 4], 'Apple']<br>
+							1<br>
+							2<br>
+							[[1, 2, 3, 4], 'Apple', 'Blueberries', 'Blueberries', 'Grapes', 'Mango', 'cherry']<br>
+							['cherry', 'Mango', 'Grapes', 'Blueberries', 'Blueberries', 'Apple', [1, 2, 3, 4]]<br>
+							['cherry', 'Mango', 'Grapes', 'Blueberries', 'Blueberries', 'Apple', [1, 2, 3, 4]]<br>
+							[ ]
+					
+					</p>
+				</div>
+			</div>
+		</div><br>
+		
+		
+
+		
+	</section>
+	
+		
+	<!-- Classes/objects -->
+<!-- ====================================================== -->
+
+				
+
+
+	<section id='python_classes_objects' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Classes / Objects</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">
+					Python is an “object-oriented programming language.” This means
+					that almost all the code is implemented using a special construct 
+					called classes. Programmers use classes to keep related things together.
+					This is done using the keyword “class,” which is a grouping of object-oriented constructs.
+					<br><br>
+					<span class="red"><b>* </b></span>A class is a code template for creating objects.
+					Objects have member variables and have behaviour associated with them.
+					In python a class is created by the keyword class.
+					<br>
+					<span class="red"><b>* </b></span>An object is created using the constructor 
+					of the class. This object will then be called the instance of the class. 
+					</span>
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">class <span class="white">FirstClass : <br>
+						&nbsp&nbsp&nbsp&nbsp text </span> = <span class="green">"Hello Wolrd"</span></span><br>
+						<span class="print">print </span><span class="white">( FirstClass )</span><br>
+						<span class="white"> p <span class="orange"> = </span> FirstClass()</span><br>
+						<span class="print">print </span><span class="white"> ( p.text)</span>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					__main__.FirstClass<br>
+					Hello Wolrd 
+					</p>
+					</div>
+			</div>
+		</div>
+		
+
+
+
+		
+		<div class="row about-desc" data-aos="fade-up">
+			<br><br>
+			<p class="rules">
+				<span class="">
+					<span class="red"><b>* </b></span>Objects can also contain methods.
+					Methods in objects are functions that belongs to the object.<br>
+					<span class="red"><b>* </b></span>All classes have a function called __init__(), which is 
+					always executed when the class is being initiated.
+
+					Use the __init__() function to assign values to object properties, or other 
+					operations that are necessary to do when the object is being created.<br>
+					<span class="red"><b>* </b></span>The self parameter is a reference to
+					the class itself, and is used to access variables that belongs to the class.<br>
+					<span class="red"><b>* </b></span>It does not have to be named self , you can
+					call it whatever you like, but it has to be the first parameter of any function
+					in the class.<br>
+					<span class="red"><b>* </b></span>You can modify & delete properties of objects.
+				</span>
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example One :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">class <span class="white">ClassOne :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp def </span><span class="white">__init__(self, name, age):<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp self.name <span class="orange"> = </span> name</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp self.age <span class="orange"> = </span> age</span><br>
+						<span class="white"> p <span class="orange"> = </span> ClassOne ( <span class="green">"Kristen"</span>, <span class="pink"> 18 </span> )</span><br>
+						<span class="print">print </span><span class="white">( p.name)</span><br>
+						<span class="print">print </span><span class="white">( p.age)</span>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						Kristen<br>
+						18
+					</p>
+					</div>
+			</div>
+		</div><br>
+		
+		
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example Two :</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">class <span class="white">Users :</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp def </span><span class="white">__init__(user, userName, userAge):<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp user.userName <span class="orange"> = </span> userName</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp user.userAge <span class="orange"> = </span> userAge</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp def </span><span class="white">userFunc ( user ) :<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white">( <span class="green">" Name : "</span><span class="orange"> + </span> user.userName )</span><br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white">( user.userAge )</span><br>
+						
+						<span class="white">p <span class="orange"> = </span>Users ( <span class="green">"Kristen"</span>, <span class="pink">18</span> )</span><br>
+						<span class="white">p.userFunc()</span><br><br>
+						<span class="comment"># below code modify/update object values</span><br>
+						<span class="white">p.userAge </span><span class="orange"> = </span><span class="pink"> 20</span><br>
+						<span class="white">p.userFunc()</span><br><br>
+						<span class="comment"># below code delete object </span><br>
+						<span class="orange">del</span><span class="white"> p.userAge</span>
+					</p>
+					</div>
+			</div>
+		</div><br>
+					<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					Name : Kristen<br>
+					18<br>
+					 Name : Kristen<br>
+					20
+					</p>
+					</div>
+			</div>
+		</div><br>
+		
+	</section>
+
+
+	
+	<!-- Iterators -->
+	<!-- ============================= -->
+	
+	<section id='python_iterators' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Iterators</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"><span class="space">
+			
+				Iterators are everywhere in Python. They are elegantly implemented within for loops, comprehensions, generators etc. but hidden in plain sight.
+
+Iterator in Python is simply an object that can be iterated upon. An object which will return data, one element at a time.
+
+Technically speaking, Python iterator object must implement two special methods, __iter__() and __next__(), collectively called the iterator protocol.
+
+An object is called iterable if we can get an iterator from it. Most of built-in containers in Python like: list, tuple, string etc. are iterables.
+
+The iter() function (which in turn calls the __iter__() method) returns an iterator from them.
+</span>
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example One :</h4>
+				<div class="code_sub_block">
+					<span class="white">fruits <span class="orange"> = </span> ( <span class="green">"Apple"</span>, <span class="green">"Mango"</span>, <span class="green">"Grapes"</span>, <span class="green">"Blueberries"</span> ) </span><br>
+					<span class="white">myiter <span class="orange"> = iter</span> ( fruits )</span><br>
+					<span class="print">print </span><span class="white">(<span class="orange">next</span>(myiter))</span><br>
+					<span class="print">print </span><span class="white">(<span class="orange">next</span>(myiter))</span><br>
+					<span class="print">print </span><span class="white">(<span class="orange">next</span>(myiter))</span><br>
+					<span class="print">print </span><span class="white">(<span class="orange">next</span>(myiter))</span>
+					</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p>			
+					<span class="comment">
+					Apple<br>
+					Mango<br>
+					Grapes<br>
+					Blueberries
+					</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example Two :</h4>
+					<div class="code_sub_block">
+						<p>
+							<span class="white">numbers <span class="orange"> = </span>[ <span class="pink">5</span>, <span class="pink">7</span>, <span class="pink">8</span>, <span class="pink">12</span>, <span class="pink">17</span>  ]</span><br>
+							<span class="white">my_iter <span class="orange"> = iter </span> ( numbers )</span><br>
+							<span class="print">print</span><span class="white">( <span class="orange">next</span>( my_iter ))</span><br>
+							<span class="print">print</span><span class="white">( <span class="orange">next</span>( my_iter ))</span><br>
+							<span class="print">print</span><span class="white">(  my_iter.__next__())</span><br>
+							<span class="print">print</span><span class="white">(  my_iter.__next__())</span><br>
+							<span class="print">print</span><span class="white">(  my_iter.__next__())</span>
+							
+							
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+							5<br>
+							7<br>
+							8<br>
+							12<br>
+							17
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="row about-desc" data-aos="fade-up">
+				<br><p class="rules"><b>* </b>To prevent the iteration to go on forever, we can use the <span class="keyword_bg_2">StopIteration</span> statement.
+
+In the <span class="keyword_bg_2">__next__()</span> method, we can add a terminating condition to raise an error if the iteration is done a specified number of times: </p>
+			</div>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Example :</h4>
+					<div class="code_sub_block">
+						<p>
+							<span class="orange">class <span class="white">Numbers :</span><br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp def</span> <span class="white"> __iter__ (self) : </span><br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <span class="white">self.p <span class="orange"> = </span> <span class="pink"> 1 </span><br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <span class="orange">return</span> self</span><br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp <span class="orange">def </span><span class="white">__next__(self) : <br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <span class="orange">if </span> self.p </span><span class="orange"><= </span> <span class="pink"> 15 </span><span class="white">: <br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp x <span class="orange"> = </span> self.p<br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp self.p <span class="orange"> += </span><span class="pink"> 1</span><br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <span class="orange">return </span> x<br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <span class="orange">else</span> :<br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <span class="orange">raise </span> StopIteration<br>
+							myClass <span class="orange"> = </span> Numbers ()<br>
+							my_iter <span class="orange"> = iter</span> (myClass)<br>
+							<span class="orange">for </span>x <span class="orange"> in </span> my_iter : <br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span>(x)
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			
+			<div class="main_block ">
+				<div class="code_block_2" data-aos="fade-up">
+					<h4>Output :</h4>
+					<div class="code_sub_block">
+						<p class="comment">
+						1<br>
+						2<br>
+						3<br>
+						4<br>
+						5<br>
+						6<br>
+						7<br>
+						8<br>
+						9<br>
+						10<br>
+						11<br>
+						12<br>
+						13<br>
+						14<br>
+						15
+
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+	</section>
+	
+	
+		
+	<!-- Module -->
+<!-- ====================================================== -->
+
+				
+
+
+	<section id='python_module' class="python_2">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Module</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules">
+			<span class="space">
+				A module is a Python object with arbitrarily named attributes that you can bind and reference.
+				Simply, a module is a file consisting of Python code. A module can define functions, 
+				classes and variables.
+			
+			</span>
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+					We use modules to break down large programs into small manageable and organized files.
+					Furthermore, modules provide reusability of code.
+			</p>
+			<p class="rules"><span class="red"><b>* </b></span>
+				A file containing Python code, for e.g.: example.py, is called a module and its module
+				name would be example.
+			</p>
+		
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example One: ( save with any name with extension ".py" eg: <span class="keyword_bg_2"> firstModule.py </span> )</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">def <span class="white"> welcome ( name ) :</span><br>
+						&nbsp&nbsp&nbsp&nbsp <span class="print">print </span><span class="white">("Welcome to our website " </span> + <span class="white"> name )</span></span><br><br>
+						<span class="white">person <span class="orange"> = </span>{<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="green">"Name"</span> : <span class="green"> "Emma Watson" </span>,<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="green">"Country"</span> : <span class="green"> "France" </span>,<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="green">"age"</span> : <span class="green"> "22" </span>,<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="green">"Occupation"</span> : <span class="green"> "Actor" </span><br>
+						}
+						</span>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+		
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example One: ( Importing above module in this program )</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">import</span> <span class="white"> firstModule<br><br>
+						
+						<span class="comment"># Using Function</span><br>
+						firstModule.welcome( <span class="green">"Kristen Stewart"</span> )</span><br><br>
+						<span class="comment"># Using Person Data</span><br>
+						<span class="white">a <span class="orange"> = </span> firstModule.person[<span class="green"> "Country" </span>]</span><br>
+						<span class="print">print </span><span class="white">(a)</span>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						Welcome to our website Kristen Stewart<br>
+						France
+					</p>
+				</div>
+			</div>
+
+			<div class="row about-desc" data-aos="fade-up">
+			
+			<p class="rules">
+				<span class="space">
+				</span>
+			</p>
+				You can choose to import only parts from a module, by using the from keyword.
+		</div>
+		<br>
+		
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example Two : ( save with any name with extension ".py" eg: <span class="keyword_bg_2"> secondModule.py </span> )</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="white">person <span class="orange"> = </span>{<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="green">"Name"</span> : <span class="green"> "Emma Watson" </span>,<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="green">"Country"</span> : <span class="green"> "France" </span>,<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="green">"age"</span> : <span class="green"> "22" </span>,<br>
+						&nbsp&nbsp&nbsp&nbsp&nbsp <span class="green">"Occupation"</span> : <span class="green"> "Actor" </span><br>
+						}
+						</span>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+		
+		
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example Two: ( Importing above module in this program )</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="orange">from </span><span class="white"> secondModule </span><span class="orange">import</span> <span class="white"> person<br><br>
+						<span class="print">print </span><span class="white">(person[<span class="green">"Country"</span>])</span>
+						
+					</p>
+					</div>
+			</div>
+		</div><br>
+					
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						France
+					</p>
+				</div>
+			</div>
+		
+		
+
+
+<br>
+		
+		<div class="row about-desc" data-aos="fade-up">
+			
+			<p class="rules">
+				<span class="red"><b>* </b></span>You can create an alias when you import a module, by using the <span class="keyword_bg">as</span> keyword.<br>
+				
+				<span class="red"><b>* </b></span>There are several built-in modules in Python, which you can import whenever you like.<br>
+				<span class="red"><b>* </b></span>There is a built-in function to list all the function names (or variable names) 
+				in a module. The <span class="keyword_bg">dir()</span>  function.
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block" data-aos="fade-up">
+				<h4>Example : ( Importing <span class="keyword_bg_2">platform</span> built in module )</h4>
+				<div class="code_sub_block">
+					<p>
+						<span class="comment"># changing import module name </span><br>
+						<span class="orange">import <span class="white">platform</span> as <span class="white">eLearning <br>
+						a </span> = <span class="white">eLearning.system()</span><br></span>
+						<span class="print">print </span><span class="white">( a )</span><br><br>
+						<span class="comment"># Using dir </span><br>
+						<span class="white">b <span class="orange"> = dir </span>( eLearning )<br>
+						<span class="print">print </span> ( b )</span>
+						
+					</p>
+				</div>
+			</div>
+		</div><br>
+			<div class="code_block" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+					Windows<br><br>
+					['DEV_NULL', '_UNIXCONFDIR', '_WIN32_CLIENT_RELEASES', '_WIN32_SERVER_RELEASES', 
+					'__builtins__', '__cached__', '__copyright__', '__doc__', '__file__', '__loader__',
+					'__name__', '__package__', '__spec__', '__version__', '_default_architecture',
+					'_dist_try_harder', '_follow_symlinks', '_ironpython26_sys_version_parser',
+					'_ironpython_sys_version_parser', '_java_getprop', '_libc_search', '_linux_distribution',
+					'_lsb_release_version', '_mac_ver_xml', '_node', '_norm_version', '_parse_release_file',
+					'_platform', '_platform_cache', '_pypy_sys_version_parser', '_release_filename',
+					'_release_version', '_supported_dists', '_sys_version', '_sys_version_cache',
+					'_sys_version_parser', '_syscmd_file', '_syscmd_uname', '_syscmd_ver', '_uname_cache',
+					'_ver_output', 'architecture', 'collections', 'dist', 'java_ver', 'libc_ver',
+					'linux_distribution', 'mac_ver', 'machine', 'node', 'os', 'platform', 'popen',
+					'processor', 'python_branch', 'python_build', 'python_compiler', 'python_implementation',
+					'python_revision', 'python_version', 'python_version_tuple', 're', 'release', 'subprocess',
+					'sys', 'system', 'system_alias', 'uname', 'uname_result', 'version', 'warnings', 'win32_ver']
+
+					</p>
+				</div>
+			</div>
+		<br>
+		
+	</section>
+
+
+	
+		<!-- text -->
+	<!-- ======================================= -->
+	<section id='python_dates' class="python_1">
+	
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+			
+			<div class="col-full">
+                <h1 class="display-23 orange">Date</h1>
+            </div>
+			
+		</div>
+		<div class="row about-desc" data-aos="fade-up">
+			<p class="rules"><span class="space"></span>
+			A date in Python is not a data type of its own, but we can import a module named <span class="keyword_bg_2">datetime</span> 
+			to work with dates as date objects. The <span class="keyword_bg_2">datetime()</span> class also takes parameters for time and
+			timezone (hour, minute, second, microsecond, tzone), but they are optional, and has a 
+			default value of 0, (None for timezone).<br>
+			<span class="red"><b>* </b></span>The datetime object has a method for formatting date 
+			objects into readable strings.
+
+			The method is called <span class="keyword_bg_2">strftime()</span>, and takes one parameter, format, to specify the format
+			of the returned string<br>
+	
+			</p>
+		</div>
+			
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Example :</h4>
+				<div class="code_sub_block">
+				
+					<p>
+						<span class="orange">import</span><span class="white"> datetime<br>
+						a <span class="orange"> = </span> datetime.datetime.now()<br>
+						<span class="print">print</span> ( a )<br>
+						<span class="print">print</span> ( a.month )<br>
+						<span class="print">print</span> ( a.year )<br>
+						<span class="print">print</span> ( a.strftime ( <span class="green">"%c"</span> ) )<br><br>
+						<span class="comment"># We can give manuall date like this</span><br>
+						b <span class="orange"> = </span> datetime.datetime( <span class="pink">2020</span>, <span class="pink">5</span>, <span class="pink"> 22</span>  )<br>
+						<span class="print">print</span> ( b.strftime ( <span class="green">"%a"</span> ) )<br>
+						<span class="print">print</span> ( b.strftime ( <span class="green">"%A"</span> ) )<br>
+						<span class="print">print</span> ( b.strftime ( <span class="green">"%c"</span> ) )<br>
+						<span class="print">print</span> ( b.strftime ( <span class="green">"%x"</span> ) )<br>
+						</span>
+					</p>
+					
+				</div>
+			</div>
+		</div><br>
+		<div class="main_block ">
+			<div class="code_block_2" data-aos="fade-up">
+				<h4>Output :</h4>
+				<div class="code_sub_block">
+					<p class="comment">
+						2018-08-21 21:32:24.098105<br>
+						8<br>
+						2018<br>
+						Tue Aug 21 21:32:24 2018<br>
+						Fri<br>
+						Friday<br>
+						Fri May 22 00:00:00 2020<br>
+						05/22/20
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+		
+    <!-- <!-- services -->
+    <!-- ================================================== --> 
+    <!-- <section id='services' class="s-services"> -->
+
+        <!-- <div class="row section-header has-bottom-sep" data-aos="fade-up"> -->
+            <!-- <div class="col-full"> -->
+                <!-- <h3 class="subhead">What We Do</h3> -->
+                <!-- <h1 class="display-2">We’ve got everything you need to launch and grow your business</h1> -->
+            <!-- </div> -->
+        <!-- </div>  -->
+
+        <!-- <div class="row services-list block-1-2 block-tab-full"> -->
+
+            <!-- <div class="col-block service-item" data-aos="fade-up"> -->
+                <!-- <div class="service-icon"> -->
+                    <!-- <i class="icon-paint-brush"></i> -->
+                <!-- </div> -->
+                <!-- <div class="service-text"> -->
+                    <!-- <h3 class="h2">Brand Identity</h3> -->
+                    <!-- <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.  -->
+                    <!-- Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. -->
+                    <!-- Sunt suscipit voluptas ipsa in tempora esse soluta sint. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+            <!-- </div> -->
+
+            <!-- <div class="col-block service-item" data-aos="fade-up"> -->
+                <!-- <div class="service-icon"> -->
+                    <!-- <i class="icon-group"></i> -->
+                <!-- </div> -->
+                <!-- <div class="service-text"> -->
+                    <!-- <h3 class="h2">Illustration</h3> -->
+                    <!-- <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.  -->
+                    <!-- Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. -->
+                    <!-- Sunt suscipit voluptas ipsa in tempora esse soluta sint. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+            <!-- </div> -->
+
+            <!-- <div class="col-block service-item" data-aos="fade-up"> -->
+                <!-- <div class="service-icon"> -->
+                    <!-- <i class="icon-megaphone"></i> -->
+                <!-- </div>   -->
+                <!-- <div class="service-text"> -->
+                    <!-- <h3 class="h2">Marketing</h3> -->
+                    <!-- <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.  -->
+                    <!-- Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. -->
+                    <!-- Sunt suscipit voluptas ipsa in tempora esse soluta sint. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+            <!-- </div> -->
+
+            <!-- <div class="col-block service-item" data-aos="fade-up"> -->
+                <!-- <div class="service-icon"> -->
+                    <!-- <i class="icon-earth"></i> -->
+                <!-- </div> -->
+                <!-- <div class="service-text"> -->
+                    <!-- <h3 class="h2">Web Design</h3> -->
+                    <!-- <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.  -->
+                    <!-- Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. -->
+                    <!-- Sunt suscipit voluptas ipsa in tempora esse soluta sint. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+            <!-- </div> -->
+
+            <!-- <div class="col-block service-item" data-aos="fade-up"> -->
+                <!-- <div class="service-icon"> -->
+                    <!-- <i class="icon-cube"></i> -->
+                <!-- </div> -->
+                <!-- <div class="service-text"> -->
+                    <!-- <h3 class="h2">Packaging Design</h3> -->
+                    <!-- <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.  -->
+                    <!-- Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. -->
+                    <!-- Sunt suscipit voluptas ipsa in tempora esse soluta sint. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+            <!-- </div> -->
+    
+            <!-- <div class="col-block service-item" data-aos="fade-up"> -->
+                <!-- <div class="service-icon"><i class="icon-lego-block"></i></div> -->
+                <!-- <div class="service-text"> -->
+                    <!-- <h3 class="h2">Web Development</h3> -->
+                    <!-- <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.  -->
+                    <!-- Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. -->
+                    <!-- Sunt suscipit voluptas ipsa in tempora esse soluta sint. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+            <!-- </div> -->
+
+        <!-- </div>  -->
+
+    <!-- </section>  -->
+
+	
+
+	
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Who Developed</h3>
+                <h1 class="display-2">Glint has been honored to
+                partner up with these clients</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <!-- <div class="row clients-outer" data-aos="fade-up"> -->
+            <!-- <div class="col-full"> -->
+                <!-- <div class="clients" align="center"> -->
+                    
+                    <!-- <a href="#0" id="dev_img" title="" class="clients__slide"><img src="images/dev/user.png" /></a> -->
+                    <!-- <a href="#0" id="dev_img" title="" class="clients__slide"><img src="images/dev/user.png" /></a> -->
+                    <!-- <a href="#0" id="dev_img" title="" class="clients__slide"><img src="images/dev/user.png" /></a> -->
+                    <!-- <a href="#0" id="dev_img" title="" class="clients__slide"><img src="images/dev/user.png" /></a> -->
+                     
+                <!-- </div> <!-- end clients --> 
+            <!-- </div> <!-- end col-full -->
+			<!-- </div> <!-- end clients-outer -->
+
+        <div class="row clients-testimonials" data-aos="fade-up">
+            <div class="col-full">
+                <div class="testimonials">
+
+                    <div class="testimonials__slide">
+
+                        <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
+                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
+                        Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
+
+                        <img id="cir_img" src="images/avatars/user.png" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Sandhya</span> 
+                            <span class="testimonials__pos">Python Developer</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+                        
+                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+
+                        <img src="images/avatars/user.png" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Ashwini</span> 
+                            <span class="testimonials__pos">Content Writer</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+                        
+                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+
+                        <img id="cir_img" src="images/avatars/user.png" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Mahesh</span> 
+                            <span class="testimonials__pos">Content Writer</span>
+                        </div>
+
+                    </div>
+
+
+
+					<div class="testimonials__slide">
+                        
+                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+
+                        <img id="cir_img" src="images/avatars/user.png" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Jagdeesh</span> 
+                            <span class="testimonials__pos">UI Developer</span>
+                        </div>
+
+                    </div>
+
+                </div><!-- end testimonials -->
+                
+            </div> <!-- end col-full -->
+        </div> <!-- end client-testimonials -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+            
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth" style="color:#ff7200">Contact Info</h3>
+
+
+                    <div class="cinfo">
+                        <h5 id="orange">Email Us At</h5>
+                        <p id="cont">
+                            jagadish.kumarchary@gmail.com<br>
+                            
+                        </p>
+                    </div>
+
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" style="" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+	
+  <script src="index.js"></script>
+
+</body>
+
+</html>
